@@ -1,0 +1,248 @@
+[
+	{
+		"id" : "03d818a1-fcce-491d-98fb-0644343fb7b1",
+		"playbooks_id" : "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
+		"item" : "Small drone",
+		"description" : "Small, remote-controlled drone with cameras. May be able to carry something light. Did you make this or buy it? Does it fly, slither, or crawl? What nickname did you give it? Do you have several Drones on The Ship, or just a bunch of chassis and Repair bits you use to Repair one drone? [0 load]"
+	},
+	{
+		"id" : "0a469e33-1611-404f-b0d9-0ac4e0b0f77b",
+		"playbooks_id" : "4189a100-951c-4fcf-b441-39cfbed39ae6",
+		"item" : "Fine bedside manner",
+		"description" : "Charm that sets patients at ease. Some Stitches never bother to bring this. Do you know how to relate to many people? Do you share a lot of anecdotes? Do you project a demeanor of confident skill? [0 load]"
+	},
+	{
+		"id" : "0b291bd4-e641-4895-917d-79251aa7a3e6",
+		"playbooks_id" : "8db6b05e-da26-4165-bad7-35114929bc6c",
+		"item" : "Memento of a past encounter",
+		"description" : "A distinctive piece of jewelry, a fine blade with a House crest, a signet ring, a small statue. Who are these from, and why do you hold onto them? [0 load]"
+	},
+	{
+		"id" : "14e22bf6-8d37-433c-a950-8bfd43bfd321",
+		"playbooks_id" : "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
+		"item" : "Sunder",
+		"description" : "a fine vibro-blade. Cuts through almost any material. Decorated. Knife or dueling blade. What Design is etched on the blade? Did you claim it, or rightfully earn it? [1 load]"
+	},
+	{
+		"id" : "1642f111-aa74-40c1-ad24-b71060196268",
+		"playbooks_id" : "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
+		"item" : "Fine melee weapon",
+		"description" : "Antiquated weapon that acts as an extension of your body. In the age of blasters, swords and polearms are quaint remnants of culture and custom for the most part. But Way powers seem to interact stubbornly with advanced technology. Each mystic order keeps anachronistic items, and uses them in different ways. Do you have such a weapon? If so, what training have you had with it, and how do you use it? [2 load]"
+	},
+	{
+		"id" : "16e69915-0add-448e-b6d6-eef4558a8961",
+		"playbooks_id" : "4189a100-951c-4fcf-b441-39cfbed39ae6",
+		"item" : "Recognizable medic garb",
+		"description" : "The common red medic outfit bearing the official white medic seal of The Hegemony. Recognizable from a distance. What are the rules about how medics should be treated in combat? Do medical personnel have legal obligations while so-dressed? [0 load]"
+	},
+	{
+		"id" : "20d504f5-a891-47df-9e10-2ae1fcce3c6a",
+		"playbooks_id" : "8db6b05e-da26-4165-bad7-35114929bc6c",
+		"item" : "Luxury item",
+		"description" : "Fine brandies, small but thoughtful gifts, spices and perfumes, fine instruments, popular games, etc. These can come in varied sizes. Each time you bring one of these on The Job, explain what it is and why it’s luxurious. [0, 1, or 2 load]"
+	},
+	{
+		"id" : "3914f0bb-86b2-40a5-bba0-9620dcde7600",
+		"playbooks_id" : "90751430-77e8-4696-bbce-c3a64f31d79a",
+		"item" : "Fine customized spacesuit",
+		"description" : "Sweet decals, emergency beacon, some thrust. Will keep you alive in space or when your cockpit gets shot. Lets you move about a bit and maybe even extends jumps in atmosphere. What patches or custom artwork do you have on yours, and what does it mean? [2 load]"
+	},
+	{
+		"id" : "3c44c07c-8bb1-460b-ba3e-bd82071bdaac",
+		"playbooks_id" : "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
+		"item" : "Spare parts",
+		"description" : "Usually for ship repairs and electronics. Often forgotten in a pocket or tool belt. Although it’s usually nothing overly expensive, you end up carrying parts you’re working on and pieces for fixing ships. If you ever need a wire, solder, or a piece of tape, you have it on hand. Anything rare or more complex might take a lifestyle roll to have on you. [1 load]"
+	},
+	{
+		"id" : "43dc8b89-d3ca-41bf-b504-eac9c2e16506",
+		"playbooks_id" : "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
+		"item" : "Memento of your travels",
+		"description" : "A small statue, outdated currency, a lock of hair, a picture. Who gave this to you, and why do you cherish it? Is it a reminder of a good or bad memory? [0 load]"
+	},
+	{
+		"id" : "4693e1b5-599a-41c9-9681-61a2dc600600",
+		"playbooks_id" : "3e7519b4-26f7-4f40-81df-19275fe2ca63",
+		"item" : "Fine blaster pistol (or matching pair)",
+		"description" : "Customized or strange. Can fire mystic ammunition. What do they fire? Where in your travels did you get them? Did you name them? [1 or 2 load]"
+	},
+	{
+		"id" : "563b5e82-9f57-47f4-9b4f-a418105a8475",
+		"playbooks_id" : "90751430-77e8-4696-bbce-c3a64f31d79a",
+		"item" : "Guild license",
+		"description" : "Legit pilot certification (though it may not be yours). Will allow you passage through a jumpgate. How did you get yours? [1 load]"
+	},
+	{
+		"id" : "6267c40c-80d8-4cd7-83ce-2323d671ff31",
+		"playbooks_id" : "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
+		"item" : "Mystic ammunition",
+		"description" : " A large-caliber shell, designed to be fired from a specialized gun that releases mystic energies when it hits. Grants Potency against mystic targets. Who makes your mystic bullets? Why are they potent against Way energies? [0 load]"
+	},
+	{
+		"id" : "661d3667-deb3-4a85-ada7-533b8c5f8609",
+		"playbooks_id" : "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
+		"item" : "Trappings of religion",
+		"description" : "Scrolls, texts, icons, cups and bowls, bells. What sacred objects does your particular order of Mystics bear? How easily recognizable would this be? [1 load]"
+	},
+	{
+		"id" : "7e3a5970-5ee5-4399-91e4-395658714964",
+		"playbooks_id" : "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
+		"item" : "Precursor artifact",
+		"description" : "A small object made of ancient materials. Precursor tech. Was this given to you by the Mystics that trained you, found as a child, or something you’ve picked up on your travels? What does it do? Discuss its powers, costs, and side effects with your table (for more on Precursor Artifacts, see here). [1 load]"
+	},
+	{
+		"id" : "7f1dd042-41b1-4b0b-851b-4dc3b81483e5",
+		"playbooks_id" : "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
+		"item" : "Vision-enhancing goggles",
+		"description" : "Eyewear with settings for thermal and ultraviolet, and magnification levels in the thousands. Even tints when required. What do they look like? [1 load]"
+	},
+	{
+		"id" : "854662f4-ffb3-4f42-8efe-b263dfe4bec8",
+		"playbooks_id" : "8db6b05e-da26-4165-bad7-35114929bc6c",
+		"item" : "Fine clothes",
+		"description" : "Silk sarongs, suits, fine blue capes. You stand out and are always dressed for the occasion. Nobody will mistake these for a disguise. Which outfit is your favorite? [1 load]"
+	},
+	{
+		"id" : "8ec887d1-5bc8-4032-bece-0e0b03147b1f",
+		"playbooks_id" : "8db6b05e-da26-4165-bad7-35114929bc6c",
+		"item" : "Legitimate ID",
+		"description" : "A properly encoded Hegemonic ID indicating your legitimate station in The Hegemony. Who will notice when you use this? [0 load]"
+	},
+	{
+		"id" : "9250af24-cf6d-4f9e-81d4-e909c011bdd4",
+		"playbooks_id" : "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
+		"item" : "Fine hacking rig",
+		"description" : "Visualization goggles, unpublished exploits, overclocked non-market chips, optical vampire taps. Hacking is as much about hardware as it is about software. Who maintains your gear? Do you write your own programs or does someone hook you up with the latest? Any decorations on your kit? [1 load]"
+	},
+	{
+		"id" : "94170ba6-1cc4-45bf-9fee-274bca688d74",
+		"playbooks_id" : "3e7519b4-26f7-4f40-81df-19275fe2ca63",
+		"item" : "Forged documents",
+		"description" : "Reasonably well-made facsimiles of documents that would never actually be given to someone like you. Who made these for you? Do you still owe someone for them? Or did you steal them from someone? [0 load]"
+	},
+	{
+		"id" : "9492172b-176c-41f3-ac61-5e8b37c399bd",
+		"playbooks_id" : "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
+		"item" : "Offerings",
+		"description" : "A candle, oil lamp, flowers, food, water, incense, pebbles from your journey. Were they gifts, left at a shrine for any mystic to take as they wander, or given in return for a job? [0 load]"
+	},
+	{
+		"id" : "97555451-056c-4b4b-b87b-dbd312b19d88",
+		"playbooks_id" : "3e7519b4-26f7-4f40-81df-19275fe2ca63",
+		"item" : "Mystic ammunition",
+		"description" : "A large-caliber shell, designed to be fired from a specialized gun, which releases mystic energies when it hits. Grants Potency against mystic targets. Who makes your mystic bullets? Why are they potent against Way energies? [0 load]"
+	},
+	{
+		"id" : "9d7024e8-f2cc-4605-a82f-a7e6b410a645",
+		"playbooks_id" : "3e7519b4-26f7-4f40-81df-19275fe2ca63",
+		"item" : "Loaded dice or trick holo-cards",
+		"description" : "Gambling accoutrements subtly altered to favor particular Outcomes. Luck is one of your many skills. Sometimes it just needs a little help though. When’s the last time these got you into trouble? [0 load]"
+	},
+	{
+		"id" : "a2a58313-7a75-4f72-9e01-0c1c05f0cd4c",
+		"playbooks_id" : "4189a100-951c-4fcf-b441-39cfbed39ae6",
+		"item" : "Fine clothing",
+		"description" : "A suit or outfit for fancy dinner parties and high society. Is this an artifact of your past, or something you’ve picked up for when you need to secure funding for your doctoring work? [1 load]"
+	},
+	{
+		"id" : "abf570ff-cab3-4e55-af50-d50b1a1ab535",
+		"playbooks_id" : "90751430-77e8-4696-bbce-c3a64f31d79a",
+		"item" : "Victory cigars",
+		"description" : "Enough to share with a few choice people. What’s the point of pulling off amazing stunts if you can’t celebrate? No guarantee the rest of your crew will appreciate the smell, or won’t turn up the air filters. Where do you get these, and how many do you have left? How rare are they? [0 load]"
+	},
+	{
+		"id" : "ae459b4c-22aa-44d6-919d-0557db3633f3",
+		"playbooks_id" : "90751430-77e8-4696-bbce-c3a64f31d79a",
+		"item" : "Fine small Urbot",
+		"description" : "A small Urbot that supports piloting and can carry a few items. Seems eerily sentient. Urbots are supposed to be wiped about once a year. How long has it been since you’ve taken yours in to the Guild of Engineers for such a procedure? What is its designation and what personality quirks does it have? What does its chassis look like, and how does it help you pilot? [2 load]"
+	},
+	{
+		"id" : "baae5e3a-626f-4079-9d0a-1a687ed9b953",
+		"playbooks_id" : "4189a100-951c-4fcf-b441-39cfbed39ae6",
+		"item" : "Syringes and applicators",
+		"description" : "Syringes, injectors, patch applicators. Many can be palmed easily. Sometimes having drugs on hand also means having to subtly administer them. Are any of these not for medical purposes? [0 load]"
+	},
+	{
+		"id" : "bc0c6121-ed15-4423-9f66-c7066de9dcc1",
+		"playbooks_id" : "90751430-77e8-4696-bbce-c3a64f31d79a",
+		"item" : "Fine mechanics kit",
+		"description" : "Hand-held scanners, hull patch kit, assortment of hand tools. Everything you need to patch a vehicle and get it flying again. What tool did you just pick up? Which one did you customize? [1 load]"
+	},
+	{
+		"id" : "c5b65fac-c423-48ff-ae60-48a9b823cae2",
+		"playbooks_id" : "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
+		"item" : "Zarathustra",
+		"description" : "a detonator launcher. Fires detonators at high velocity. Detonators are illegal, so this generates heat when fired. Can be used to target/damage vehicles and structures. Not subtle. Batteries included, but detonators marked separately. [2 load]"
+	},
+	{
+		"id" : "cf4a2fcd-59d5-4cf8-b61f-270912e0b4d1",
+		"playbooks_id" : "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
+		"item" : "Outdated religious outfit",
+		"description" : "Robes, worn cloaks, sandals, etc. Participants and practitioners of popular and sanctioned Hegemonic Cults often bear well-known insignia of modern manufacture. Was yours passed down? Never replaced? Hand crafted? [1 load]"
+	},
+	{
+		"id" : "d07ddd4b-164f-4842-9200-9a3a4c1c4a90",
+		"playbooks_id" : "3e7519b4-26f7-4f40-81df-19275fe2ca63",
+		"item" : "Fine coat",
+		"description" : "A heavy but well-made and well-kept coat. Distinctive and with a history. Where did you get this coat? Was it a gift, an impulse purchase, or something you won in a bet? Is it decorated with any insignia or logos? Make sure it’s got a memorable look or color. [1 load]"
+	},
+	{
+		"id" : "d17ed002-ec99-4bd8-b483-ee062eb81dcd",
+		"playbooks_id" : "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
+		"item" : "Vera",
+		"description" : " a fine sniper rifle. A full-bore auto-lock with customized trigger, double cartridge, thorough gauge. It can fire mystic ammunition. Did you customize this yourself, special order it, take it off a body, or is it a gift from someone? [2 load]"
+	},
+	{
+		"id" : "d32ee990-8ce1-4339-8eaf-d22ff2835a6c",
+		"playbooks_id" : "3e7519b4-26f7-4f40-81df-19275fe2ca63",
+		"item" : "Personal memento",
+		"description" : "A keepsake you cherish. A locket, small holo, music from your homeworld. For someone so tied to the spaceways, what about this memento makes it so important? Who does it remind you of? Why do you still hold onto it? [0 load]"
+	},
+	{
+		"id" : "da59174a-29a8-4c58-bfd9-e659b9d51808",
+		"playbooks_id" : "90751430-77e8-4696-bbce-c3a64f31d79a",
+		"item" : "Grappling hook",
+		"description" : "Small, but mechanized. Can pull you up. Fits in your belt. Makes you look dashing when you swing to the rescue. When did it last break? [1 load]"
+	},
+	{
+		"id" : "e50cf319-0351-4008-be58-6ec2b02fb675",
+		"playbooks_id" : "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
+		"item" : "Genius pet",
+		"description" : "Incapable of speaking, but can understand language and Assist with basic tasks. Likes you. Really cute. Anticipates your actions. Is it something familiar (like a dog or a cat) or a small alien creature? What is its name? Who did you get it from (legally or illegally)? [0 load]"
+	},
+	{
+		"id" : "e6cba708-a8ad-47bc-974f-1d8a715f7e9e",
+		"playbooks_id" : "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
+		"item" : "Fine ship Repair tools",
+		"description" : "Power-assisted wrenches, a sonic drill, testing probes, power calibrators, a rivet gun. Is this a set of items, or did you pick them up piecemeal? [2 load]"
+	},
+	{
+		"id" : "e91d64c7-78bf-4781-9a35-5a7bf90b0a37",
+		"playbooks_id" : "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
+		"item" : "Zmei",
+		"description" : "a fine flamethrower. For those times when you really need to heat things up. Settings for regular and extra crispy. Not easy to hide. Attacks cover the area of a small room (and leave distinct scorch marks that may result in additional heat). Complications when getting shot may include the fuel tanks rupturing. What sweet decals or marks does it have? [2 load]"
+	},
+	{
+		"id" : "ee1e39b5-c8f7-4fdd-85fc-d074439d9061",
+		"playbooks_id" : "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
+		"item" : "Krieger",
+		"description" : "a fine blaster pistol. As a friend or ally, this signature pistol can be used during Downtime to threaten or intimidate. As an enemy, someone else owns it and it’s carrying a bullet for you. You know this gun intimately­—from where or why? [1 load]"
+	},
+	{
+		"id" : "f542e6b5-dc73-4a16-a0c4-d3eb89fa4f5b",
+		"playbooks_id" : "4189a100-951c-4fcf-b441-39cfbed39ae6",
+		"item" : "Fine medkit",
+		"description" : "Better stocked than the standard. Skin staples, diagnostic hand scanners, synthflesh, bone stabilizers, spray hypos, antivenom (for dangerous alien beasts), and a wider selection of drugs. Are there any distinctive markings on your medkit? [2 load]"
+	},
+	{
+		"id" : "f5d1d64d-f815-4c5e-a91b-87f5a2c85ab6",
+		"playbooks_id" : "4189a100-951c-4fcf-b441-39cfbed39ae6",
+		"item" : "Candies and treats",
+		"description" : "For those extra brave customers. Do you indulge in them as well? Have you ever disguised a sedative as one to subdue someone? [1 load]"
+	},
+	{
+		"id" : "fa6bd745-2c53-43e5-ac18-0efa14d8be59",
+		"playbooks_id" : "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
+		"item" : "Fine martial arts style",
+		"description" : "Your own custom blend of combat techniques, unique as a fingerprint. Where and with whom did you first train? What is your style called? Have you had any pupils? [0 load]"
+	}
+]

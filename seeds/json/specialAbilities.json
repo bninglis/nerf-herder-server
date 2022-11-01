@@ -1,0 +1,394 @@
+[
+	{
+		"id" : "018ba9b7-193b-4661-912b-b8b43144200e",
+		"playbooks_id" : "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
+		"name" : "CONSTRUCT WHISPERER",
+		"description" : "Machines speak to you when you study them. The first time you roll a critical while fixing or building a particular machine, you may add a simple modification to it (see Crafting).",
+		"clarification" : "How do machines whisper their secrets to you? Is it intuitive? Do you feel what they feel? You do not gain the modification if you improve the result with cred."
+	},
+	{
+		"id" : "04f54f6e-77ff-42c0-94ba-ebc06c7d83f1",
+		"playbooks_id" : "90751430-77e8-4696-bbce-c3a64f31d79a",
+		"name" : "TRAVELER",
+		"description" : "You’re comfortable around unusual cultures and xenos. You gain Potency when attempting to Consort with or sway them.",
+		"clarification" : "While any character can have had some experience with specific xeno cultures, this ability represents a wide swath of experience and understanding. Whether you come across as deeply respectful or you just know what buttons to push, you are more effective than would be expected."
+	},
+	{
+		"id" : "0a2dee28-eb98-45c6-b108-7514eefe3c5d",
+		"playbooks_id" : "8db6b05e-da26-4165-bad7-35114929bc6c",
+		"name" : "PURPOSE",
+		"description" : "You may expend your special armor to push yourself when outclassed by your opposition, or when under the effects of wounds. When you resist with resolve, gain +1d.",
+		"clarification" : "When you use this ability, tick the special armor box on your playbook sheet. Being outclassed may be through quality, power, or scale. Being under the effect of wounds means acting with a harm penalty, though you may use this push to ignore the harm penalty (as per pushing yourself). If you use this ability to push yourself, you get one of the benefits (+1d, +1 effect, act despite severe harm) but you don’t take 2 Stress. Your special armor is restored when you select your load at the start of a job."
+	},
+	{
+		"id" : "0cb578dd-43f2-4ccc-972e-4fb7035d400c",
+		"playbooks_id" : "8db6b05e-da26-4165-bad7-35114929bc6c",
+		"name" : "PLAYER",
+		"description" : "You always know when someone is lying to you.",
+		"clarification" : "This ability works in all situations without restriction. It is very powerful, but also a bit of a curse. You see though every lie, even the kind ones."
+	},
+	{
+		"id" : "1161e2ee-d984-4c68-b61e-54f63ac4bf2c",
+		"playbooks_id" : "8db6b05e-da26-4165-bad7-35114929bc6c",
+		"name" : "DISARMING",
+		"description" : "Whenever you use a gambit while speaking, hostilities and danger also pause while you speak.",
+		"clarification" : "You still gain +1d for whatever roll you need to make to explain yourself, likely Consort, sway, or Command."
+	},
+	{
+		"id" : "1277b443-5f04-4dff-a4a7-53fef2739484",
+		"playbooks_id" : "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
+		"name" : "WARDED",
+		"description" : "You may expend your special armor to resist the Consequences of a Way attack or artifact use, or push yourself when using mystic powers.",
+		"clarification" : "When you use this ability, tick the special armor box on your playbook sheet. If you use this ability to push yourself, you get one of the benefits (+1d, +1 effect, act despite severe harm) but you don’t take 2 Stress. Your special armor is restored when you select your load at the start of a job."
+	},
+	{
+		"id" : "12967fee-5d61-4cb4-8d30-0f8d8473b782",
+		"playbooks_id" : "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
+		"name" : "SCARY",
+		"description" : "You have an air of menace and danger obvious to even the most unobservant. You gain Potency when trying to intimidate someone. If done immediately after a show of force, also take +1d.",
+		"clarification" : "You instill fear in those around you, particularly when you get violent. How they react depends on them. Some will flee from you, some will be impressed, some will get violent in return. The GM judges the response of a given NPC.\\n\\nIntimidation is usually handled with a Command roll, and your efforts to do so are more successful if you show you mean business."
+	},
+	{
+		"id" : "14270291-a5a9-4321-ae80-144664b6e5b5",
+		"playbooks_id" : "8db6b05e-da26-4165-bad7-35114929bc6c",
+		"name" : "FAVORS OWED",
+		"description" : "During Downtime, you get +1d when you Acquire Assets or Lay Low. Any time you gather info, take +1d.",
+		"clarification" : "Using your authority, connections, or inside information, you get better information and access to better resources."
+	},
+	{
+		"id" : "23420375-3129-4041-93d2-4bb3843c4285",
+		"playbooks_id" : "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
+		"name" : "FLESH WOUND",
+		"description" : "If you’re wounded at the beginning of Downtime, mark +3 segments on your healing clock. When you push yourself to ignore wound penalties, it takes only 1 Stress (not 2).",
+		"clarification" : "Whether naturally tough or augmented in some way, wounds don’t keep you down. See Recover for more information."
+	},
+	{
+		"id" : "23829b33-ee62-4cb4-a01d-9a5308a18104",
+		"playbooks_id" : "90751430-77e8-4696-bbce-c3a64f31d79a",
+		"name" : "LEAF ON THE WIND",
+		"description" : "When you push yourself, you may spend +1 Stress (3 Stress total) to gain both +1 effect and +1d instead of one or the other.",
+		"clarification" : "Normally it takes two separate pushes (4 Stress total) to achieve the same effect. This can be used on any roll."
+	},
+	{
+		"id" : "25b50026-a3a4-4e5b-a1fd-004af300e4b4",
+		"playbooks_id" : "8db6b05e-da26-4165-bad7-35114929bc6c",
+		"name" : "OLD FRIENDS",
+		"description" : "Whenever you land in a new location, write down a friend you know there (under Influential Friends on your playbook sheet).",
+		"clarification" : "As with your starting Influential Friends, you may extend your list of friends the first time you land in a new location."
+	},
+	{
+		"id" : "2c7da9ad-0a1c-4b6c-b19f-9a2a30b9a8ab",
+		"playbooks_id" : "4189a100-951c-4fcf-b441-39cfbed39ae6",
+		"name" : "UNDER PRESSURE",
+		"description" : "Add a gambit to the pool whenever you or a crew member suffers level 2 or greater harm.",
+		"clarification" : "In order to gain the gambit, the resulting applied consequence must be level 2 or greater—if it is resisted or reduced below that level, you do not gain the gambit."
+	},
+	{
+		"id" : "30f79c67-02e9-450d-8933-6b293f21d70d",
+		"playbooks_id" : "3e7519b4-26f7-4f40-81df-19275fe2ca63",
+		"name" : "I KNOW A GUY",
+		"description" : "When you first dock at a port after being away, pick one and ask the GM about a job: it’s not deadly—it pays well enough—it’s not a rush job—it comes from a faction you trust—it targets an enemy you have. You may spend 1 cred per additional feature.",
+		"clarification" : "Though you keep an ear to the ground, sufficient time has to pass for new jobs to crop up at a port (usually a Downtime or two). The GM will tell you how you hear about the work; it might be a publicly available bounty or something a contact reaches out about."
+	},
+	{
+		"id" : "3b55e8b3-64e7-4f00-a68d-d0c90336c400",
+		"playbooks_id" : "3e7519b4-26f7-4f40-81df-19275fe2ca63",
+		"name" : "SHOOT FIRST",
+		"description" : "When you attack from hiding or spring a trap, take +1d. When there’s a question about who acts first, the answer is you (two characters with Shoot First act simultaneously).",
+		"clarification" : "To attack from hiding, your target must be unaware of you. If you’re springing a trap, your target must be unaware of the trap."
+	},
+	{
+		"id" : "4bd527d0-77e6-46e3-8a57-afe94ad37996",
+		"playbooks_id" : "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
+		"name" : "OVERCLOCK",
+		"description" : "When you spend a gambit on a rig roll to Repair or upgrade, treat the system you worked on as 1 quality higher for the remainder of The Job.",
+		"clarification" : "You may make a rig roll during a job to simply to get more out of a system, but such temporary boosts are only situational and need to be backed out the next time you hit drydock. You can overclock systems that aren’t ships, enhancing the system’s quality."
+	},
+	{
+		"id" : "4fef00e5-aabb-4dfe-9c59-fa5dfea764cd",
+		"playbooks_id" : "4189a100-951c-4fcf-b441-39cfbed39ae6",
+		"name" : "PHYSICKER",
+		"description" : "You may study a malady, wounds, or corpse, and gather info from a crime scene. Also, your crew gets +1d to recovery rolls.",
+		"clarification" : "This ability often represents formal training, giving you a way to forensically understand a corpse or scientifically deconstruct a malady. The bonus to recovery for your crew only applies if you help treat wounds or injuries at any point during the recovery."
+	},
+	{
+		"id" : "50c935f7-1515-4dff-a5fc-3e042baae9b4",
+		"playbooks_id" : "3e7519b4-26f7-4f40-81df-19275fe2ca63",
+		"name" : "TENACIOUS",
+		"description" : "Penalties from harm are one level less severe (though level 4 harm is still fatal).",
+		"clarification" : "When harm penalties are applied to action rolls, treat them as one level less than you’d expect, so level 1 harm is ignored, and level 3 harm is -1d. Level 4 harm, also called lethal harm, is still lethal unless you can use armor or a resistance roll to reduce it first."
+	},
+	{
+		"id" : "5272ed19-090e-448e-8a1e-0ef5da57e51b",
+		"playbooks_id" : "3e7519b4-26f7-4f40-81df-19275fe2ca63",
+		"name" : "NEVER TELL ME THE ODDS",
+		"description" : "You generate gambits on desperate rolls. You may also generate gambits even if you spent a gambit.",
+		"clarification" : "Normally you only generate gambits on risky rolls for which you have not spent a gambit. Your ability to “stretch” gambits, regenerating them on rolls you have already spent them on, gives you the ability to put yourself in situations others might not even want to consider."
+	},
+	{
+		"id" : "619137a6-203b-4409-b2a9-5e71fc672ffc",
+		"playbooks_id" : "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
+		"name" : "KINETICS",
+		"description" : "You can push yourself to do one of the following: use The Way to throw a table-sized object with dangerous force—propel yourself briefly with superhuman speed.",
+		"clarification" : "Dangerous force means fast enough to severely injure a normal person. Superhuman speed means fast enough that you’re barely more than a blur. Your reach is about the size of a large room. Yes, people can count as objects."
+	},
+	{
+		"id" : "64f3e96a-8c97-4643-983e-2d7e71ba9a87",
+		"playbooks_id" : "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
+		"name" : "WRECKING CREW",
+		"description" : "Your strength and ferocity are infamous. When striking in melee, you gain +1d. Whenever you spend a gambit in combat, you also gain +1 effect on that action.",
+		"clarification" : "Whether you are a master of a martial arts, or raised by Mystics to fight with antique weapons, your martial prowess in close combat is legendary (and may attract those that wish to learn from or challenge you).\\n\\nIf you spend a gambit in combat, take +1 effect on that action. This can hit a single opponent harder or offset penalties from scale or quality. This also stacks with the +1d from the gambit and the +1d from the core Wrecking Crew ability."
+	},
+	{
+		"id" : "654daf47-a487-4ed6-9d65-9e4a5a979867",
+		"playbooks_id" : "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
+		"name" : "PSY-BLADE",
+		"description" : "You can focus Way energy into your melee weapon. While charged, the weapon can cut through non-shielded materials with ease, and you gain Potency on your melee attacks.",
+		"clarification" : "Heavy metal plates are non-shielded, so you can cut through most doors without trouble. Shielded constructs are rare, but they offer enough protection that this attack would lose its Potency. You cannot infuse your fists with Way energy (or gloves, brass knuckles, etc.)."
+	},
+	{
+		"id" : "67227801-d08e-4100-bb1d-e75fcd70f30d",
+		"playbooks_id" : "90751430-77e8-4696-bbce-c3a64f31d79a",
+		"name" : "COMMANDER",
+		"description" : "Whenever you Lead a Group Action, gain +1 scale (for example, a small group counts as a medium group). If you lead a group action in combat, you may count multiple 6s from different rolls as a critical.",
+		"clarification" : "A group action is one where multiple PCs perform the same action and roll their respective pools for those actions (see Lead a Group Action). If you already have scale on your opponent, you gain an additional scale (and therefore level of effect). If two or more players roll a 6, then the result of the roll for everyone is a crit. You must still suffer Stress costs from any participant whose result is a 1-3."
+	},
+	{
+		"id" : "69389148-5ed4-4c89-aedf-7f20193c3ab9",
+		"playbooks_id" : "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
+		"name" : "WAY SHIELD",
+		"description" : "You can block blaster bolts with The Way (resist with resolve). If you resist a blaster attack, you may spend 1 Stress to redirect fire and make an attack of your own with it.",
+		"clarification" : "Resisting blasters in this way usually reduces the harm to zero."
+	},
+	{
+		"id" : "6a14ee42-7dea-402a-b0e4-9d306ba43a51",
+		"playbooks_id" : "3e7519b4-26f7-4f40-81df-19275fe2ca63",
+		"name" : "DAREDEVIL",
+		"description" : "When you make a desperate roll, you may take +1d. If you do so, do not mark xp in that action’s attribute.",
+		"clarification" : "You need to make the decision before your roll. You may only take this extra die if the final position of the roll is desperate, so if you use a setup to change the position to risky, for example, you may not take the extra die."
+	},
+	{
+		"id" : "6ea5354a-c894-42a0-9bbb-e607cc4ef1dd",
+		"playbooks_id" : "90751430-77e8-4696-bbce-c3a64f31d79a",
+		"name" : "KEEN EYE",
+		"description" : "You have sharp eyes and notice small details many might overlook. Gain +1d when firing ship guns or making trick shots.",
+		"clarification" : "This can be used as a basis for resistance rolls to act first. “No, I want to act before him—I would’ve seen him reaching for the gun.” Also, trick shots can be performed with almost any kind of ranged weapon, not just ship weapons."
+	},
+	{
+		"id" : "7e20cc37-bf0e-4086-8db3-53c516253cfc",
+		"playbooks_id" : "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
+		"name" : "MECHANIC’S HEART",
+		"description" : "When you speak from your heart, your words can reach even the most hardened criminal, and you gain Potency.",
+		"clarification" : "This ability works in all situations without restriction. As long as you speak genuinely and sincerely, your words will be heard."
+	},
+	{
+		"id" : "8454b56b-b18a-45b6-871d-862895a8cd53",
+		"playbooks_id" : "4189a100-951c-4fcf-b441-39cfbed39ae6",
+		"name" : "WELCOME ANYWHERE",
+		"description" : "While wearing your medic garb, you are welcome even in dangerous places. Gain +1d to Consort and sway when offering to tend to anyone in need.",
+		"clarification" : "When you choose to be, you’re recognizable as a medic, and of value to those living the hard life of Procyon."
+	},
+	{
+		"id" : "89237254-443e-4d72-add8-6780562e24b3",
+		"playbooks_id" : "8db6b05e-da26-4165-bad7-35114929bc6c",
+		"name" : "INFILTRATOR",
+		"description" : "You are not affected by quality or Tier when you bypass security measures.",
+		"clarification" : "This ability lets you contend with higher-Tier enemies on equal footing. When you’re hacking an electronic security system, picking a lock, or sneaking past elite guards, your effect level is never reduced due to superior Tier or quality level of your opposition."
+	},
+	{
+		"id" : "8da36821-7a6c-4174-b6a1-08f57bea5a40",
+		"playbooks_id" : "3e7519b4-26f7-4f40-81df-19275fe2ca63",
+		"name" : "DEVIL’S OWN LUCK",
+		"description" : "You may expend your special armor to resist the Consequences of blaster fire, or to push yourself when talking your way out of (or running from) trouble.",
+		"clarification" : "When you use this ability, tick the special armor box on your playbook sheet. Blaster fire can extend to pistols and being shot in any way, and running from trouble can be via spaceship as much as your feet. If you use this ability to push yourself, you get one of the benefits (+1d, +1 effect, act despite severe harm) but you don’t take 2 Stress. Your special armor is restored when you select your load at the start of a job."
+	},
+	{
+		"id" : "92e7708c-635e-4e4c-bd1e-38783e642231",
+		"playbooks_id" : "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
+		"name" : "BAILING WIRE AND MECH-TAPE",
+		"description" : "You get an extra Downtime activity to Repair, and the Repair activity costs you 0 cred.",
+		"clarification" : "The Repair Downtime activity usually takes 1 cred to perform. With this ability, you can take the activity at no cred cost. The free repairs can’t be “saved up.” You get one per Downtime."
+	},
+	{
+		"id" : "938cc9c2-417a-425c-9794-f9a5b65dc1c5",
+		"playbooks_id" : "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
+		"name" : "HACKER",
+		"description" : "You may expend your special armor to resist the Consequences of hacking, or to push yourself when hacking or gathering info electronically.",
+		"clarification" : "When you use this ability, tick the special armor box on your playbook sheet. If you use this ability to push yourself, you get one of the benefits (+1d, +1 effect, act despite severe harm) but you don’t take 2 Stress. Your special armor is restored when you select your load at the start of a job."
+	},
+	{
+		"id" : "9acbd538-2ff9-4cc9-be95-a51a517bef83",
+		"playbooks_id" : "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
+		"name" : "ANALYST",
+		"description" : "When you hack a system, you may also ask a question about the owner or location of the system as though you had rolled a 6 on gather info. When you resist the Consequences of hacking, roll +1d.",
+		"clarification" : "Regardless of the purpose for which you are hacking, you learn something about the systems you’re manipulating. If you were Gathering Information, you may roll to learn a second thing, or you can simply accept the 6 for what you wanted to know."
+	},
+	{
+		"id" : "a21c5162-d52d-4c46-b5f5-41954218e5b1",
+		"playbooks_id" : "4189a100-951c-4fcf-b441-39cfbed39ae6",
+		"name" : "COMBAT MEDIC",
+		"description" : "You may expend your special armor to resist any consequence while tending to a patient. When you Doctor someone in combat, clear 1 Stress.",
+		"clarification" : "When you use this ability, tick the special armor box on your playbook sheet. When you resist Consequences, they can be for yourself, as a result of one of your rolls, or to Protect the patient. Your special armor is restored when you select your load at the start of a job."
+	},
+	{
+		"id" : "a9153de3-e87b-4479-b7d8-978947033214",
+		"playbooks_id" : "90751430-77e8-4696-bbce-c3a64f31d79a",
+		"name" : "EXCEED SPECS",
+		"description" : "While onboard a ship, you may Damage a ship system you have access to in order to gain +1d or +1 effect to a roll.",
+		"clarification" : "Overload a system for a short-term boost. The system’s quality is still the same for the one roll you’re boosting. After the roll, the system fries out and the quality is reduced."
+	},
+	{
+		"id" : "a9d05098-4c50-4a48-94d7-1e35a7fa1ab2",
+		"playbooks_id" : "90751430-77e8-4696-bbce-c3a64f31d79a",
+		"name" : "HEDONIST",
+		"description" : "When you indulge your vice, you may adjust the dice outcome by +/-2. An ally who joins you may do the same.",
+		"clarification" : "Any ally must join you in whatever vice you’re indulging (or you can indulge via a crew ability, such as the Stardancer’s Home Cooking). You can adjust the outcome by less than 2, or not adjust it at all. You can also Recover more than 6 Stress on a vice roll this way."
+	},
+	{
+		"id" : "ad787459-489e-43a2-a551-9992b835e87f",
+		"playbooks_id" : "3e7519b4-26f7-4f40-81df-19275fe2ca63",
+		"name" : "Ask Questions LATER",
+		"description" : "When you Consort to gather info, you gain +1 effect and can in addition ask: Who might this benefit?",
+		"clarification" : "When you ask your own question, you learn the answer to that, as well as to the question “who might this benefit?” Since you gain Potency, the worst a normal gather information roll can produce would be standard results."
+	},
+	{
+		"id" : "ae8b889d-5750-40d1-bf62-aed8449468d8",
+		"playbooks_id" : "4189a100-951c-4fcf-b441-39cfbed39ae6",
+		"name" : "BOOK LEARNING",
+		"description" : "You speak a multitude of languages and are broadly educated. Gain +1d when using study during a Downtime activity.",
+		"clarification" : "Communication is almost never an issue for you. Additionally, you have a background in almost every academic subject that might come up, and can use gather information checks to find out what you might have learned in those studies."
+	},
+	{
+		"id" : "b62127c0-6b38-480d-b6aa-edbba1b152ca",
+		"playbooks_id" : "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
+		"name" : "VISIONS",
+		"description" : "Spend 1 Stress to remotely view a distant place or person tied to you in some intimate way. Spend 1 Stress for each extra feature: it lasts for a minute rather than a moment—your target can also see and hear you—you may see something only familiar to you, not intimate.",
+		"clarification" : "Spending a gambit with your starting ability (“the Way”) covers all costs. When your target can also see and hear you, you are both within the same “area,” for the purposes of other abilities."
+	},
+	{
+		"id" : "b6e93062-f241-4000-8c0a-90ef6e939dfb",
+		"playbooks_id" : "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
+		"name" : "PREDATOR",
+		"description" : "Take +1d to rolls against weakened or vulnerable targets. Whenever you gather information on a weakness or vulnerability, the worst you can get is a 4\\5 result.",
+		"clarification" : "You know how to leverage fear, pain, and vulnerability to get your way. When trying to suss out such things in a person, you usually come up with something, even if the information isn’t immediately useful or is incomplete. Someone in a vulnerable state might be drugged, trusting, badly wounded, or frightened."
+	},
+	{
+		"id" : "b82fb753-bd0c-4eee-a6df-e8c67b724c23",
+		"playbooks_id" : "3e7519b4-26f7-4f40-81df-19275fe2ca63",
+		"name" : "WHEN THE CHIPS ARE DOWN",
+		"description" : "You gain a second use of special armor between each Downtime.",
+		"clarification" : "This allows you to use a second special armor OR use the same special armor twice."
+	},
+	{
+		"id" : "b9d99380-3487-4ad9-8756-42532476e3f6",
+		"playbooks_id" : "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
+		"name" : "READY FOR ANYTHING",
+		"description" : "When being ambushed, you gain Potency to all actions during a flashback, and your first flashback costs 0 Stress.",
+		"clarification" : "You always expect ambushes and prepare for them. Flash back to such preparation when an ambush happens. If your preparation requires action rolls, you gain Potency on them."
+	},
+	{
+		"id" : "cbcb111a-1cbe-4d01-abeb-a7b36ba1aee7",
+		"playbooks_id" : "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
+		"name" : "JUNKYARD HUNTER",
+		"description" : "When you acquire parts or equipment during Downtime, you may either gain two assets or one asset at +1 quality.",
+		"clarification" : "Your junkyard contacts can get what you need refurbished or on special offer. If you gain two assets, they both have the same quality as your roll."
+	},
+	{
+		"id" : "d1af1d76-7b4a-4723-8df1-0092e89c5170",
+		"playbooks_id" : "90751430-77e8-4696-bbce-c3a64f31d79a",
+		"name" : "PUNCH IT!",
+		"description" : "When you spend a gambit on a desperate roll, it counts as risky instead.",
+		"clarification" : "Because you spent a gambit on the roll, even though it counts as risky, the roll may not itself generate a gambit (unless you have another ability that says it can). You still gain the +1d to the roll for the gambit, but the position of the roll should be adjusted, as should the Consequences. Bear in mind that this can be used on any roll (not just piloting ones)."
+	},
+	{
+		"id" : "d4e66e3a-0e45-4f03-94a1-9b8a419a6c40",
+		"playbooks_id" : "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
+		"name" : "CENTER",
+		"description" : "You gain Meditation as a vice. When you indulge this vice, clear +1 Stress and add Dark Visions as a possible Overindulgence.",
+		"clarification" : "Contemplation of the universe is not without its perils. When you choose Dark Visions as an Overindulgence, The Way shows you a loved one, contact, or friend in great danger."
+	},
+	{
+		"id" : "d5230701-3a11-4fb2-8125-b3be0e2871f5",
+		"playbooks_id" : "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
+		"name" : "BACKUP",
+		"description" : "An ally’s push costs 1 Stress (not 2) on any action you set up or Assist.",
+		"clarification" : "The set up and Assist actions (see Teamwork) still grant their bonus dice or effect as usual."
+	},
+	{
+		"id" : "d5b26e60-e3d6-4d42-821e-05055b1315be",
+		"playbooks_id" : "4189a100-951c-4fcf-b441-39cfbed39ae6",
+		"name" : "MORAL COMPASS",
+		"description" : "When you do the right thing at cost to yourself, mark xp (any category).",
+		"clarification" : "The cost to yourself must be real, though it need not be devastating. Losing a meaningful opportunity, experiencing a setback with a project, or getting into a heated argument with a friend could all count."
+	},
+	{
+		"id" : "da37cbc5-543f-4419-aa00-1d327f25d9a4",
+		"playbooks_id" : "4189a100-951c-4fcf-b441-39cfbed39ae6",
+		"name" : "PATCH",
+		"description" : "You may Doctor someone during a job to allow them to ignore the effects of a harm penalty.",
+		"clarification" : "A successful roll lasts for The Job. While your patient may ignore the effects of the harm penalty, it does not remove the penalty; there are still fewer boxes for additional wounds."
+	},
+	{
+		"id" : "db2b3fa0-d8bf-4ee2-bc0c-6c1f0b6726be",
+		"playbooks_id" : "4189a100-951c-4fcf-b441-39cfbed39ae6",
+		"name" : "DR. STRANGE",
+		"description" : "Your research and fields of study are fringe, esoteric, and focus on the mystical. You may always handle Precursor Artifacts safely. When you study an artifact or Doctor a strange substance, you may ask one",
+		"clarification" : "what could this do?—why could this be dangerous?"
+	},
+	{
+		"id" : "dd2d447f-eb02-4d03-be29-87e3823a4315",
+		"playbooks_id" : "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
+		"name" : "PSY-DANCING",
+		"description" : "You may push yourself to cloud a target’s mind and sway them in the face of contradictory evidence. “You must do as I say. I am the ambassador.” Spend 1 Stress for each additional feature: they have only vague memories of the event—it works on a small group.",
+		"clarification" : "Such confusions do not persist indefinitely, though those with vague memories will often fill in the missing details with assumptions. “I must’ve checked her badge. I always do.”"
+	},
+	{
+		"id" : "eaf021a7-1c40-456e-bf57-76549102779b",
+		"playbooks_id" : "8db6b05e-da26-4165-bad7-35114929bc6c",
+		"name" : "HEART TO HEART",
+		"description" : "When you provide meaningful insight or heartfelt advice that a crewmate follows, you both clear 1 Stress.",
+		"clarification" : "Meaningful advice taken can mean changing someone’s usual course of action, having them take a difficult action that costs them, or causing them to reconsider their choices. If there’s a question about what constitutes meaningful or heartfelt, discuss it as a group and decide together."
+	},
+	{
+		"id" : "eb5dde4b-3bef-4a48-a91d-430f7a2c44ac",
+		"playbooks_id" : "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
+		"name" : "BODYGUARD",
+		"description" : "When you Protect a crewmate, resist with +1d. When you take harm, clear 1 Stress.",
+		"clarification" : "The Protect teamwork maneuver lets you face a consequence for a teammate."
+	},
+	{
+		"id" : "ef49c9f4-8591-49f5-9e84-a224556f34d4",
+		"playbooks_id" : "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
+		"name" : "FIXED",
+		"description" : "You may expend your special armor to resist a consequence from machines breaking or being damaged, or to push yourself when repairing or building a machine.",
+		"clarification" : "When you use this ability, tick the special armor box on your playbook sheet. Machines can include your ship, so you can use this as special armor for your ship if you are onboard dealing with the Damage. If you use this ability to push yourself, you get one of the benefits (+1d, +1 effect, act despite severe harm) but you don’t take 2 Stress. Your special armor is restored when you select your load at the start of a job."
+	},
+	{
+		"id" : "f22d0ae9-a8af-4508-a31b-12dada6d0050",
+		"playbooks_id" : "90751430-77e8-4696-bbce-c3a64f31d79a",
+		"name" : "SIDE JOB",
+		"description" : "You may spend a Downtime activity in port doing odd jobs. Gain 1 cred. If there are rumors floating about, the GM will tell you of them.",
+		"clarification" : "There may not be any rumors floating about, but the GM should treat this as a gather information roll, where you roll a 6 to learn about whatever is in the news and gossip at that port."
+	},
+	{
+		"id" : "f7e5f84e-5222-4738-aac2-249c19eea89a",
+		"playbooks_id" : "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
+		"name" : "SUNDERING",
+		"description" : "You may push yourself to Attune to The Way and twist it, causing psychic harm to anyone in the area vulnerable to your assault. You may spend 1 Stress for each additional feature: it damages instead of stuns—you and anyone you choose get +2d to resist the effects.",
+		"clarification" : "You warp The Way within you, and by extension warp The Way in others—a risky proposition at best. Sundering cannot harm inanimate objects. When causing harm, the symptoms can include short-term seizures and ruptured blood vessels. Those specially trained to resist psychic attacks or are somehow shielded may reduce your effect."
+	},
+	{
+		"id" : "fa0a79ef-fa75-42c8-bb08-c2a7d52cae5f",
+		"playbooks_id" : "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
+		"name" : "BATTLEBORN",
+		"description" : "You may expend your special armor to reduce harm from an attack in combat, or to push yourself during a fight.",
+		"clarification" : "When you use this ability, tick the special armor box on your sheet. “Reducing harm” means reducing the harm one level. If you use this ability to push yourself, you get one of the benefits (+1d, +1 effect, act despite severe harm) but don’t take 2 Stress. Your special armor is restored when you select your load at the start of a job."
+	},
+	{
+		"id" : "fb915569-8820-470e-8fd1-90d5dcfd8608",
+		"playbooks_id" : "8db6b05e-da26-4165-bad7-35114929bc6c",
+		"name" : "SUBTERFUGE",
+		"description" : "You may expend your special armor to resist a consequence of persuasion or suspicion. When you resist with insight, gain +1d.",
+		"clarification" : "When you use this ability, tick the special armor box on your playbook sheet. Folks doubting your lies, stories, cover, etc., all count for the purpose of suspicion or persuasion. Your special armor is restored when you select your load at the start of a job."
+	}
+]
