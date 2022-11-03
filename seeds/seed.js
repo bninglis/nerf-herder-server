@@ -2,6 +2,7 @@
  * @param { import("knex").Knex } knex
  * @returns { Promise<void> }
  */
+ items_fdescription
 
 const playbooks = [
     {
@@ -23,9 +24,9 @@ const playbooks = [
             "Captain. Helm +2, Scramble +2. Never Tell Me the Odds.\nRelic hunter. Doctor +1, Study +1, Attune +2. Daredevil.\nEx-detective. Doctor +1, Study +1, Consort +2. Ask Questions Later.\nVeteran of Core Wars. Helm +1, Scramble +1 Scrap +2. Tenacious.",
         starting_ability: "serendipitous",
         starting_ability_summary: "Your crew starts with +1 gambit when the pool resets.",
-        items_description:
-            "This increases the crew’s starting gambits on a job. You’re just plain luckier than other people.",
         starting_ability_clarification:
+            "This increases the crew’s starting gambits on a job. You’re just plain luckier than other people.",
+        items_description:
             "Always gotta look good, and be ready for action. Scoundrels come with things to get them in trouble, and get them out—while looking good doing it.",
         playing_advice:
             "Scoundrels are one of the most versatile playbooks in Scum and Villainy—your innate luck and daring can give you a chance to shine in many situations. Learn when to push your luck and when to let things ride. Be a risk-taker, but consider the kinds of risks you’ll take and why. Are you always willing to put it on the line for a larger payout? Do you carry a grudge over slights long past?\n\nStrong characterization goes a long way for the Scoundrel. Describe your character’s attitude, their look, and how they walk into a room. Make them big and bold and let everyone have to deal with them. Do you have something to prove? Is your sense of importance earned or bravado? Are you smooth and friendly or brash and rough?\n\nDesperate actions earn xp and play into many of your abilities. Don’t shy away from them! Rely on armors (special and gear), resistance rolls, and your crew to mitigate the worst of it. A broad ability base helps with resistances and getting away with bad decisions.\n\nFor actions, focus on active skills—rig, scrap, even Command. Skulk will let you play a familiar pickpocket and card shark. The Ship captain stereotype leans on helm. A good scoundrel is always in the thick of it acting with a hare-brained plan, rather than reacting.\n\nVeteran abilities flesh out a concept. The Mystic’s Psy-Blades and most Muscle’s abilities make for tough rogues. Smooth-talking Scoundrels might look at the Speaker’s Disarming ability. Rogues with hearts of gold should look at the Stitch’s Moral Compass or the Mechanic’s Heart. And captains and crew leaders should look at the Pilot’s Commander and the Muscle’s Backup ability.",
@@ -52,9 +53,9 @@ const playbooks = [
         starting_ability: "I’m a Doctor, not a…",
         starting_ability_summary:
             "You can push yourself to roll your Doctor rating while performing a different action. Say which patient, research, or posting taught you this trick.",
-        items_description:
-            "Each time you use this ability we learn a little bit more about your past. Consider introducing your contacts in these discoveries, if appropriate.",
         starting_ability_clarification:
+            "Each time you use this ability we learn a little bit more about your past. Consider introducing your contacts in these discoveries, if appropriate.",
+        items_description:
             "A Stitch’s items are less about the garb and more about the things you bring with you to any given situation.",
         playing_advice:
             "When making a Stitch, think about what drives you to tend to this particular crew. Do you care deeply for this crew of scoundrels, or is this a way to keep one step ahead of the law? Equally important is what kind of person you are—are your patients always safe in your care? Would you refuse to help someone you think is a bad person?\n\nStitches can have varied backgrounds. Some are former university-trained field medics who may have fallen on hard times. Others are folks that learned through necessity. Some might be scientists whose line of research is not condoned by The Hegemony.\n\nYour starting ability deserves some attention. With it, you can do two things at the same time. You can substitute your Doctor rating for any other ability for a push, but more importantly, you get to have a cool moment where you talk about a former patient, posting, or research project that lends you the knowledge you need.\n\nFor actions, consider sway and Consort, if you’re a friendly sort or still have connections in high society. If you used to be a combat medic, prowess actions are good.\n\nFor Veteran abilities, look at the Speaker’s Heart-to-Heart if you’re a caretaker, while the Muscle’s Bodyguard ability allows you to keep The People in your care alive even in the worst of conditions.\n\nAlthough Stitches are usually on board to tend to wounds, some are pure scientists. Consider starting with Dr. Strange or Book Learning in that case. Many Mechanic abilities might also fit. Also rig and hack might be useful to these types, as well as the crafting rules for your gadgets and newfangled inventions.",
@@ -81,15 +82,15 @@ const playbooks = [
         starting_ability: "tinker",
         starting_ability_summary:
             "When you work on a clock with rig or hack, or when you study a schematic, fill +1 segment.",
-        items_description:
-            "You get this bonus segment regardless of whether this is a Downtime action or not. This means that bypassing security on a job or doing an emergency patch while escaping a chasing ship is easier for you than others.",
         starting_ability_clarification:
+            "You get this bonus segment regardless of whether this is a Downtime action or not. This means that bypassing security on a job or doing an emergency patch while escaping a chasing ship is easier for you than others.",
+        items_description:
             "Mechanics have tools, ship parts, and their latest inventions around or on them. Although they can dress like anyone else, many mechanics prefer looks that are tough to tear, have plenty of places to stash a tool or two, and are easy to crawl through a ship duct in.",
         playing_advice:
             "Playing a Mechanic is foremost about your relationship with The Ship. No one else will have the same ability to keep it flying, and when something breaks, all eyes will be on you. Look for opportunities to bring up what you’ve personally modified on The Ship. Where do you get parts when The Ship needs something repaired?\n\nHow did you become a mechanic? Were you mentored by one of your friends? Were you once a Guild trainee? Why did you leave and join the crew? Do you approach fixing The Ship as a stop-gap solution, where you’re simply trying to find a patch until the next thing breaks, or is it a matter of pride that something never fails twice?\n\nFamiliarize yourself with the crafting system. The ability for you to make new devices is very powerful, and the starting Tinker ability gives you an advantage that no one else will be able to match. Ask the rest of the crew what devices you might be able to create and get them to chip in for their development, either in extra downtimes to speed up Design or with extra cred to pay for Assembly.\n\nAction-wise, you may want to pick up skulk if you tend to lurk in the background, or Attune if you expect to be working on Ur machines or Urbots. If you also serve as the crew’s foremost computer and system expert, you’ll want to stack some hack.\n\nVeteran ability-wise, the Speaker’s Old Friends ability can play up your connections among crafters and hackers. If you want to go full mad scientist, look at the Stitch’s Dr. Strange ability.",
         xeno_advice:
             "Every species has Mechanics, so when playing a xeno, consider how that xenotype relates to machines. Some xenos have an unusual relationship with technology (particularly Ur-based technology), such as the Sah’iir, while others use unusual materials, like the Mem.\n\nDoes your species have an unusual adaptation for working on machines? Are they small and fit into ventilation ducts easily? Also consider how your xeno adaptations might reflect sides of you that aren’t directly relating to machines.\n\nHow does your xeno heritage fit into the story? Have the Guilds excluded your character from certain opportunities because you aren’t human? Or have your people been embraced, perhaps because of an adaptation that The Hegemony could utilize?",
-    },
+    }, 
     {
         playbook: "muscle",
         id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
@@ -110,9 +111,9 @@ const playbooks = [
         starting_ability: "unstoppable",
         starting_ability_summary:
             "You can push yourself to do one of the following: perform a feat of physical force that verges on the superhuman—engage a small gang on equal footing in close combat.",
-        items_description:
-            "When you push yourself to activate this ability, you still get one of the normal benefits of pushing yourself (+1d, +1 effect, etc.) in addition to the special ability.\\n\\nA superhuman feat is one a regular person could not do unassisted, such as tearing apart metal handcuffs. If you engage a small gang on equal footing, you have equal scale.",
         starting_ability_clarification:
+            "When you push yourself to activate this ability, you still get one of the normal benefits of pushing yourself (+1d, +1 effect, etc.) in addition to the special ability.\\n\\nA superhuman feat is one a regular person could not do unassisted, such as tearing apart metal handcuffs. If you engage a small gang on equal footing, you have equal scale.",
+        items_description:
             "Muscles are particular about their weapons. If you have more than one Muscle in the crew, feel free to fill in your own weapon names. Here are a few suggestions:\\n\\nBlink, Checkmate, Echo, Ender, Equalizer, Ghost, Itchy, Malice, Mercy, Pride, Thorn, Thunder, Tickle, Twitch, Whisper, Wynona.",
         playing_advice:
             "Your Command of violence is both a blessing and a curse. Your relationship with conflict puts you in harm’s way more often than your crewmates; it’s not uncommon for a Muscle to be nursing an injury even at the start of a job. This is, of course, offset by your general physical dominance.\n\nThink about your style of fighting\u00ad. Are you a brute with rippling muscles and a fearsome reputation? Or perhaps part of a monastic order that trains with the Way? Do you train for zero-G combat? Are you just an unyielding wall, protecting your crew from all comers? These tell a story about who you are and how you came to be known for your ability to fight, and can be reflected in Muscle ability choices.\n\nWhatever the reason, you’re part of the crew, there’s no doubt that you’re going to be their go-to for when a fight breaks out. Play that up. Consider if you’re also the person training the crew for the day when you might not be there to bail them out. Equally important is how you feel about the violence you wreak. You might be excited for each opportunity to cut loose or you might dread each fight for what you might have to do.\n\nFor actions, you may want to pick up helm, if you want to shoot ship weapons, or study, if you’re looking to read your opponents before engaging. You can sense killing intent with Attune, or deal with Precursor or Way elements threatening your crew.\\n\\nFor Veteran abilities, take the Mystic’s Psy-Blade or Kinetics if you’re looking to be a mystical fighter. For a leadership role, look at the Pilot’s Commander. And if you are looking to stand strong against all threats, keep an eye on the Scoundrel’s Tenacious ability.",
@@ -139,9 +140,9 @@ const playbooks = [
         starting_ability: "air of respectability",
         starting_ability_summary:
             "You get an extra Downtime activity to Acquire Assets or Lay Low.",
-        items_description:
-            "Your connections give you a continuous stream of material and people that you can use to smooth things over after your escapades.",
         starting_ability_clarification:
+            "Your connections give you a continuous stream of material and people that you can use to smooth things over after your escapades.",
+        items_description:
             "Speakers always have a bit of the good stuff stashed away in their room. Sometimes they’re gifts from someone—or for someone. Others may be remnants of their past life. Speakers have a wide array of items they can bring to bear for The Job. And if they’re a little classy, all the better.",
         playing_advice:
             "A good Speaker relies on timing, context, and connections. It’s not just what you can do, but who you know. You’re best in social situations because you have wider access to society and influencers. It can also be fun to keep your past a mystery from the other PCs and reveal it through The People you meet and how you interact with them.\n\nA Speaker’s friends are defined more by who they are than what they do—Guild members, diplomats, etc. This leaves the question of how you know them and the relationship you have with them very open. Collectively, they can get you almost anything you need. Hold off before you define your fifth friend until an opportune moment in the story. Even better if that friend is an established NPC, like the Pirate Queen or Governor Malklaith himself!\n\nThe Speaker has the widest variety of items in terms of gear. Their luxury items are often more form than function, but out in Procyon they can mean a lot to those you share them with. Defining these items on a job is not a flashback, provided they fit into the category of luxury item, so look for opportunities to work them into the story.\n\nFor actions, take study if you want to read The People you’re meeting, or skulk and hack if you like leveraging connections to get on the inside and influence The Job from the shadows.\n\nFor Veteran abilities, consider the Stitch’s Book Learning to reflect a high society upbringing. The Mechanic’s Hacker ability will help those infiltrators that like going into well-guarded places. And the Mystic’s Psy-Dancing can help those Speakers looking for a little extra push when words alone don’t work.",
@@ -167,9 +168,9 @@ const playbooks = [
         starting_ability: "ace pilot",
         starting_ability_summary:
             "You have Potency on all speed-related rolls. When you roll to resist the Consequences of piloting, gain +1d.",
-        items_description:
-            "Your Potency might be balanced out by their better quality (if their ship engines are better than yours, for instance). Remember that the Consequences of piloting are not always ship Damage but can often be resisted just the same.",
         starting_ability_clarification:
+            "Your Potency might be balanced out by their better quality (if their ship engines are better than yours, for instance). Remember that the Consequences of piloting are not always ship Damage but can often be resisted just the same.",
+        items_description:
             "Things every pilot needs when flying, having adventures when not flying, and when celebrating success for all of the above.",
         playing_advice:
             "Those who spend their lives driving ships across the vast expanses of space, running from pirates and Hegemony forces alike, have a need for speed. You have a unique ability to push into and past danger, relying on your skill and your ship to come through in the end. Whereas the Mechanic may be what keeps The Ship in shape, you’re what gives the ship purpose. More than a few Hegemony holo-vids have been about a hotshot pilot and their ship.\n\nAs the Pilot, you’ll be of central focus when The Ship needs to be maneuvered on The Job. But helm is not confined to ships alone. A dirt bike, hovercar, even an alien beast being ridden can be helmed just as well. Whatever your getaway vehicle, helm has you covered.\n\nWhere did you pick up your piloting skills? Did you fight for the Legion but ran into trouble with the law? Have you grown up amongst racers and always loved the spotlight? Perhaps you quit a respectable job hauling ice for a bit more excitement. Remember to bring those influences into your descriptions of piloting. Talk about the crisp military maneuvers you use to shake a pirate or The Way you vent storage in order to correct a hard burn.\n\nWhile helm handles most piloting actions, consider how you might move fast in other ways. Perhaps Scramble when you’re on foot, and sway for fast-talking.\n\nFor Veteran abilities, consider picking up the Mechanic’s Fixed ability to keep your ship safe in fights. For total speed-demons, look at the Scoundrel’s Daredevil ability.",
@@ -195,9 +196,9 @@ const playbooks = [
             "Wandering warrior. Study +1, Scrap +2, Command +1. Psy-Blade.\nMystic healer. Doctor +2, Study +1, Consort +1. Visions.\nWay ghost. Scramble +1, Skulk +2, Sway +1. Kinetics.\nMentalist. Skulk +1, Consort +1, Sway +2. Psy-Dancing.",
         starting_ability: "The Way",
         starting_ability_summary: "You can spend a gambit instead of paying any Stress cost.",
-        items_description:
-            "Any time you need to spend Stress, you may spend a gambit instead. This includes resistances and push costs. For abilities that have a variable cost, such as Sundering, those additional costs are all part of the same activation, so the push and all additional features together only costs one gambit.",
         starting_ability_clarification:
+            "Any time you need to spend Stress, you may spend a gambit instead. This includes resistances and push costs. For abilities that have a variable cost, such as Sundering, those additional costs are all part of the same activation, so the push and all additional features together only costs one gambit.",
+        items_description:
             "Mystics often have complex rituals and customs concerning the Way, and hence tend to carry more gear tied more to their practices. Many of their belongings are tied to their training or the price they pay for their dedication to it.",
         playing_advice:
             "Many kinds of Mystics wander the sector. Since there are numerous conflicting theories about The Way, mystic orders spring up around strong opinions about how the universe works. Think about how you access and perceive The Way and the forces you control. Do you connect to Way lines that crisscross the galaxy? Or use a focus of ancient symbols and embedded Ur artifacts?\n\nHow did you learn the techniques and secrets that have unlocked your access to the Way? Some Mystics are changed by exposure to Ur Artifacts or Way creatures. Others train for years in secluded monasteries, or in Hegemony-sponsored Cults.\n\nYour crew will rely on you to be their interpreter of the Way. When your crew comes across strange disturbances, filter your explanations through your theories about The Way. Look for experiences that challenge your beliefs of how The Way acts, and grapple with your new understandings. These obstacles bring life to the unusual. Remember that while there might be wild and fantastical things in Precursor ruins, The Hegemony also uses Ur Artifacts in some everyday things (like Urbots and jump drives).\n\nFor actions, if you intend to be a Mystic fighter, you’ll want to pick up scrap, or sway and Consort for those looking to go the more mental route.\n\nGood Veteran abilities to consider might be The Pilot’s Traveler ability for wandering Mystics, or Muscle abilities for Psy-Blade-wielding Mystic warriors.",
@@ -770,7 +771,7 @@ const specialAbilities = [
     {
         id: "018ba9b7-193b-4661-912b-b8b43144200e",
         playbooks_id: "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
-        name: "CONSTRUCT WHISPERER",
+        name: "construct whisperer",
         description:
             "Machines speak to you when you study them. The first time you roll a critical while fixing or building a particular machine, you may add a simple modification to it (see Crafting).",
         clarification:
@@ -779,7 +780,7 @@ const specialAbilities = [
     {
         id: "04f54f6e-77ff-42c0-94ba-ebc06c7d83f1",
         playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
-        name: "TRAVELER",
+        name: "traveler",
         description:
             "You’re comfortable around unusual cultures and xenos. You gain Potency when attempting to Consort with or sway them.",
         clarification:
@@ -788,7 +789,7 @@ const specialAbilities = [
     {
         id: "0a2dee28-eb98-45c6-b108-7514eefe3c5d",
         playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
-        name: "PURPOSE",
+        name: "purpose",
         description:
             "You may expend your special armor to push yourself when outclassed by your opposition, or when under the effects of wounds. When you resist with resolve, gain +1d.",
         clarification:
@@ -797,7 +798,7 @@ const specialAbilities = [
     {
         id: "0cb578dd-43f2-4ccc-972e-4fb7035d400c",
         playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
-        name: "PLAYER",
+        name: "player",
         description: "You always know when someone is lying to you.",
         clarification:
             "This ability works in all situations without restriction. It is very powerful, but also a bit of a curse. You see though every lie, even the kind ones.",
@@ -805,7 +806,7 @@ const specialAbilities = [
     {
         id: "1161e2ee-d984-4c68-b61e-54f63ac4bf2c",
         playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
-        name: "DISARMING",
+        name: "disarming",
         description:
             "Whenever you use a gambit while speaking, hostilities and danger also pause while you speak.",
         clarification:
@@ -814,7 +815,7 @@ const specialAbilities = [
     {
         id: "1277b443-5f04-4dff-a4a7-53fef2739484",
         playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
-        name: "WARDED",
+        name: "warded",
         description:
             "You may expend your special armor to resist the Consequences of a Way attack or artifact use, or push yourself when using mystic powers.",
         clarification:
@@ -823,7 +824,7 @@ const specialAbilities = [
     {
         id: "12967fee-5d61-4cb4-8d30-0f8d8473b782",
         playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
-        name: "SCARY",
+        name: "scary",
         description:
             "You have an air of menace and danger obvious to even the most unobservant. You gain Potency when trying to intimidate someone. If done immediately after a show of force, also take +1d.",
         clarification:
@@ -832,7 +833,7 @@ const specialAbilities = [
     {
         id: "14270291-a5a9-4321-ae80-144664b6e5b5",
         playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
-        name: "FAVORS OWED",
+        name: "favors owed",
         description:
             "During Downtime, you get +1d when you Acquire Assets or Lay Low. Any time you gather info, take +1d.",
         clarification:
@@ -841,7 +842,7 @@ const specialAbilities = [
     {
         id: "23420375-3129-4041-93d2-4bb3843c4285",
         playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
-        name: "FLESH WOUND",
+        name: "flesh wound",
         description:
             "If you’re wounded at the beginning of Downtime, mark +3 segments on your healing clock. When you push yourself to ignore wound penalties, it takes only 1 Stress (not 2).",
         clarification:
@@ -850,7 +851,7 @@ const specialAbilities = [
     {
         id: "23829b33-ee62-4cb4-a01d-9a5308a18104",
         playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
-        name: "LEAF ON THE WIND",
+        name: "leaf on the wind",
         description:
             "When you push yourself, you may spend +1 Stress (3 Stress total) to gain both +1 effect and +1d instead of one or the other.",
         clarification:
@@ -859,7 +860,7 @@ const specialAbilities = [
     {
         id: "25b50026-a3a4-4e5b-a1fd-004af300e4b4",
         playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
-        name: "OLD FRIENDS",
+        name: "old friends",
         description:
             "Whenever you land in a new location, write down a friend you know there (under Influential Friends on your playbook sheet).",
         clarification:
@@ -868,7 +869,7 @@ const specialAbilities = [
     {
         id: "2c7da9ad-0a1c-4b6c-b19f-9a2a30b9a8ab",
         playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
-        name: "UNDER PRESSURE",
+        name: "under pressure",
         description:
             "Add a gambit to the pool whenever you or a crew member suffers level 2 or greater harm.",
         clarification:
@@ -877,7 +878,7 @@ const specialAbilities = [
     {
         id: "30f79c67-02e9-450d-8933-6b293f21d70d",
         playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
-        name: "I KNOW A GUY",
+        name: "i know a guy",
         description:
             "When you first dock at a port after being away, pick one and ask the GM about a job: it’s not deadly—it pays well enough—it’s not a rush job—it comes from a faction you trust—it targets an enemy you have. You may spend 1 cred per additional feature.",
         clarification:
@@ -895,7 +896,7 @@ const specialAbilities = [
     {
         id: "4bd527d0-77e6-46e3-8a57-afe94ad37996",
         playbooks_id: "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
-        name: "OVERCLOCK",
+        name: "overclock",
         description:
             "When you spend a gambit on a rig roll to Repair or upgrade, treat the system you worked on as 1 quality higher for the remainder of The Job.",
         clarification:
@@ -904,7 +905,7 @@ const specialAbilities = [
     {
         id: "4fef00e5-aabb-4dfe-9c59-fa5dfea764cd",
         playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
-        name: "PHYSICKER",
+        name: "physicker",
         description:
             "You may study a malady, wounds, or corpse, and gather info from a crime scene. Also, your crew gets +1d to recovery rolls.",
         clarification:
@@ -913,7 +914,7 @@ const specialAbilities = [
     {
         id: "50c935f7-1515-4dff-a5fc-3e042baae9b4",
         playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
-        name: "TENACIOUS",
+        name: "tenacious",
         description:
             "Penalties from harm are one level less severe (though level 4 harm is still fatal).",
         clarification:
@@ -922,7 +923,7 @@ const specialAbilities = [
     {
         id: "5272ed19-090e-448e-8a1e-0ef5da57e51b",
         playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
-        name: "NEVER TELL ME THE ODDS",
+        name: "never tell me the odds",
         description:
             "You generate gambits on desperate rolls. You may also generate gambits even if you spent a gambit.",
         clarification:
@@ -931,7 +932,7 @@ const specialAbilities = [
     {
         id: "619137a6-203b-4409-b2a9-5e71fc672ffc",
         playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
-        name: "KINETICS",
+        name: "kinetics",
         description:
             "You can push yourself to do one of the following: use The Way to throw a table-sized object with dangerous force—propel yourself briefly with superhuman speed.",
         clarification:
@@ -940,7 +941,7 @@ const specialAbilities = [
     {
         id: "64f3e96a-8c97-4643-983e-2d7e71ba9a87",
         playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
-        name: "WRECKING CREW",
+        name: "wrecking crew",
         description:
             "Your strength and ferocity are infamous. When striking in melee, you gain +1d. Whenever you spend a gambit in combat, you also gain +1 effect on that action.",
         clarification:
@@ -949,7 +950,7 @@ const specialAbilities = [
     {
         id: "654daf47-a487-4ed6-9d65-9e4a5a979867",
         playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
-        name: "PSY-BLADE",
+        name: "psy-blade",
         description:
             "You can focus Way energy into your melee weapon. While charged, the weapon can cut through non-shielded materials with ease, and you gain Potency on your melee attacks.",
         clarification:
@@ -958,7 +959,7 @@ const specialAbilities = [
     {
         id: "67227801-d08e-4100-bb1d-e75fcd70f30d",
         playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
-        name: "COMMANDER",
+        name: "commander",
         description:
             "Whenever you Lead a Group Action, gain +1 scale (for example, a small group counts as a medium group). If you lead a group action in combat, you may count multiple 6s from different rolls as a critical.",
         clarification:
@@ -967,7 +968,7 @@ const specialAbilities = [
     {
         id: "69389148-5ed4-4c89-aedf-7f20193c3ab9",
         playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
-        name: "WAY SHIELD",
+        name: "way shield",
         description:
             "You can block blaster bolts with The Way (resist with resolve). If you resist a blaster attack, you may spend 1 Stress to redirect fire and make an attack of your own with it.",
         clarification: "Resisting blasters in this way usually reduces the harm to zero.",
@@ -975,7 +976,7 @@ const specialAbilities = [
     {
         id: "6a14ee42-7dea-402a-b0e4-9d306ba43a51",
         playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
-        name: "DAREDEVIL",
+        name: "daredevil",
         description:
             "When you make a desperate roll, you may take +1d. If you do so, do not mark xp in that action’s attribute.",
         clarification:
@@ -984,7 +985,7 @@ const specialAbilities = [
     {
         id: "6ea5354a-c894-42a0-9bbb-e607cc4ef1dd",
         playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
-        name: "KEEN EYE",
+        name: "keen eye",
         description:
             "You have sharp eyes and notice small details many might overlook. Gain +1d when firing ship guns or making trick shots.",
         clarification:
@@ -993,7 +994,7 @@ const specialAbilities = [
     {
         id: "7e20cc37-bf0e-4086-8db3-53c516253cfc",
         playbooks_id: "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
-        name: "MECHANIC’S HEART",
+        name: "mechanic’s heart",
         description:
             "When you speak from your heart, your words can reach even the most hardened criminal, and you gain Potency.",
         clarification:
@@ -1002,7 +1003,7 @@ const specialAbilities = [
     {
         id: "8454b56b-b18a-45b6-871d-862895a8cd53",
         playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
-        name: "WELCOME ANYWHERE",
+        name: "welcome anywhere",
         description:
             "While wearing your medic garb, you are welcome even in dangerous places. Gain +1d to Consort and sway when offering to tend to anyone in need.",
         clarification:
@@ -1011,7 +1012,7 @@ const specialAbilities = [
     {
         id: "89237254-443e-4d72-add8-6780562e24b3",
         playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
-        name: "INFILTRATOR",
+        name: "infiltrator",
         description: "You are not affected by quality or Tier when you bypass security measures.",
         clarification:
             "This ability lets you contend with higher-Tier enemies on equal footing. When you’re hacking an electronic security system, picking a lock, or sneaking past elite guards, your effect level is never reduced due to superior Tier or quality level of your opposition.",
@@ -1019,7 +1020,7 @@ const specialAbilities = [
     {
         id: "8da36821-7a6c-4174-b6a1-08f57bea5a40",
         playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
-        name: "DEVIL’S OWN LUCK",
+        name: "devil’s own luck",
         description:
             "You may expend your special armor to resist the Consequences of blaster fire, or to push yourself when talking your way out of (or running from) trouble.",
         clarification:
@@ -1028,7 +1029,7 @@ const specialAbilities = [
     {
         id: "92e7708c-635e-4e4c-bd1e-38783e642231",
         playbooks_id: "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
-        name: "BAILING WIRE AND MECH-TAPE",
+        name: "bailing wire and mech-tape",
         description:
             "You get an extra Downtime activity to Repair, and the Repair activity costs you 0 cred.",
         clarification:
@@ -1037,7 +1038,7 @@ const specialAbilities = [
     {
         id: "938cc9c2-417a-425c-9794-f9a5b65dc1c5",
         playbooks_id: "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
-        name: "HACKER",
+        name: "hacker",
         description:
             "You may expend your special armor to resist the Consequences of hacking, or to push yourself when hacking or gathering info electronically.",
         clarification:
@@ -1046,7 +1047,7 @@ const specialAbilities = [
     {
         id: "9acbd538-2ff9-4cc9-be95-a51a517bef83",
         playbooks_id: "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
-        name: "ANALYST",
+        name: "analyst",
         description:
             "When you hack a system, you may also ask a question about the owner or location of the system as though you had rolled a 6 on gather info. When you resist the Consequences of hacking, roll +1d.",
         clarification:
@@ -1055,7 +1056,7 @@ const specialAbilities = [
     {
         id: "a21c5162-d52d-4c46-b5f5-41954218e5b1",
         playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
-        name: "COMBAT MEDIC",
+        name: "combat medic",
         description:
             "You may expend your special armor to resist any consequence while tending to a patient. When you Doctor someone in combat, clear 1 Stress.",
         clarification:
@@ -1064,7 +1065,7 @@ const specialAbilities = [
     {
         id: "a9153de3-e87b-4479-b7d8-978947033214",
         playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
-        name: "EXCEED SPECS",
+        name: "exceed specs",
         description:
             "While onboard a ship, you may Damage a ship system you have access to in order to gain +1d or +1 effect to a roll.",
         clarification:
@@ -1073,7 +1074,7 @@ const specialAbilities = [
     {
         id: "a9d05098-4c50-4a48-94d7-1e35a7fa1ab2",
         playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
-        name: "HEDONIST",
+        name: "hedonist",
         description:
             "When you indulge your vice, you may adjust the dice outcome by +/-2. An ally who joins you may do the same.",
         clarification:
@@ -1082,7 +1083,7 @@ const specialAbilities = [
     {
         id: "ad787459-489e-43a2-a551-9992b835e87f",
         playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
-        name: "Ask Questions LATER",
+        name: "ask questions later",
         description:
             "When you Consort to gather info, you gain +1 effect and can in addition ask: Who might this benefit?",
         clarification:
@@ -1091,7 +1092,7 @@ const specialAbilities = [
     {
         id: "ae8b889d-5750-40d1-bf62-aed8449468d8",
         playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
-        name: "BOOK LEARNING",
+        name: "book learning",
         description:
             "You speak a multitude of languages and are broadly educated. Gain +1d when using study during a Downtime activity.",
         clarification:
@@ -1100,7 +1101,7 @@ const specialAbilities = [
     {
         id: "b62127c0-6b38-480d-b6aa-edbba1b152ca",
         playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
-        name: "VISIONS",
+        name: "visions",
         description:
             "Spend 1 Stress to remotely view a distant place or person tied to you in some intimate way. Spend 1 Stress for each extra feature: it lasts for a minute rather than a moment—your target can also see and hear you—you may see something only familiar to you, not intimate.",
         clarification:
@@ -1109,7 +1110,7 @@ const specialAbilities = [
     {
         id: "b6e93062-f241-4000-8c0a-90ef6e939dfb",
         playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
-        name: "PREDATOR",
+        name: "predator",
         description:
             "Take +1d to rolls against weakened or vulnerable targets. Whenever you gather information on a weakness or vulnerability, the worst you can get is a 4/5 result.",
         clarification:
@@ -1118,7 +1119,7 @@ const specialAbilities = [
     {
         id: "b82fb753-bd0c-4eee-a6df-e8c67b724c23",
         playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
-        name: "WHEN THE CHIPS ARE DOWN",
+        name: "when the chips are down",
         description: "You gain a second use of special armor between each Downtime.",
         clarification:
             "This allows you to use a second special armor OR use the same special armor twice.",
@@ -1126,7 +1127,7 @@ const specialAbilities = [
     {
         id: "b9d99380-3487-4ad9-8756-42532476e3f6",
         playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
-        name: "READY FOR ANYTHING",
+        name: "ready for anything",
         description:
             "When being ambushed, you gain Potency to all actions during a flashback, and your first flashback costs 0 Stress.",
         clarification:
@@ -1135,7 +1136,7 @@ const specialAbilities = [
     {
         id: "cbcb111a-1cbe-4d01-abeb-a7b36ba1aee7",
         playbooks_id: "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
-        name: "JUNKYARD HUNTER",
+        name: "junkyard hunter",
         description:
             "When you acquire parts or equipment during Downtime, you may either gain two assets or one asset at +1 quality.",
         clarification:
@@ -1144,7 +1145,7 @@ const specialAbilities = [
     {
         id: "d1af1d76-7b4a-4723-8df1-0092e89c5170",
         playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
-        name: "PUNCH IT!",
+        name: "punch it!",
         description: "When you spend a gambit on a desperate roll, it counts as risky instead.",
         clarification:
             "Because you spent a gambit on the roll, even though it counts as risky, the roll may not itself generate a gambit (unless you have another ability that says it can). You still gain the +1d to the roll for the gambit, but the position of the roll should be adjusted, as should the Consequences. Bear in mind that this can be used on any roll (not just piloting ones).",
@@ -1152,7 +1153,7 @@ const specialAbilities = [
     {
         id: "d4e66e3a-0e45-4f03-94a1-9b8a419a6c40",
         playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
-        name: "CENTER",
+        name: "center",
         description:
             "You gain Meditation as a vice. When you indulge this vice, clear +1 Stress and add Dark Visions as a possible Overindulgence.",
         clarification:
@@ -1161,7 +1162,7 @@ const specialAbilities = [
     {
         id: "d5230701-3a11-4fb2-8125-b3be0e2871f5",
         playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
-        name: "BACKUP",
+        name: "backup",
         description: "An ally’s push costs 1 Stress (not 2) on any action you set up or Assist.",
         clarification:
             "The set up and Assist actions (see Teamwork) still grant their bonus dice or effect as usual.",
@@ -1169,7 +1170,7 @@ const specialAbilities = [
     {
         id: "d5b26e60-e3d6-4d42-821e-05055b1315be",
         playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
-        name: "MORAL COMPASS",
+        name: "moral compass",
         description: "When you do the right thing at cost to yourself, mark xp (any category).",
         clarification:
             "The cost to yourself must be real, though it need not be devastating. Losing a meaningful opportunity, experiencing a setback with a project, or getting into a heated argument with a friend could all count.",
@@ -1177,7 +1178,7 @@ const specialAbilities = [
     {
         id: "da37cbc5-543f-4419-aa00-1d327f25d9a4",
         playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
-        name: "PATCH",
+        name: "patch",
         description:
             "You may Doctor someone during a job to allow them to ignore the effects of a harm penalty.",
         clarification:
@@ -1186,7 +1187,7 @@ const specialAbilities = [
     {
         id: "db2b3fa0-d8bf-4ee2-bc0c-6c1f0b6726be",
         playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
-        name: "DR. STRANGE",
+        name: "dr. strange",
         description:
             "Your research and fields of study are fringe, esoteric, and focus on the mystical. You may always handle Precursor Artifacts safely. When you study an artifact or Doctor a strange substance, you may ask one",
         clarification: "what could this do?—why could this be dangerous?",
@@ -1194,7 +1195,7 @@ const specialAbilities = [
     {
         id: "dd2d447f-eb02-4d03-be29-87e3823a4315",
         playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
-        name: "PSY-DANCING",
+        name: "psy-dancing",
         description:
             "You may push yourself to cloud a target’s mind and sway them in the face of contradictory evidence. “You must do as I say. I am the ambassador.” Spend 1 Stress for each additional feature: they have only vague memories of the event—it works on a small group.",
         clarification:
@@ -1203,7 +1204,7 @@ const specialAbilities = [
     {
         id: "eaf021a7-1c40-456e-bf57-76549102779b",
         playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
-        name: "HEART TO HEART",
+        name: "heart to heart",
         description:
             "When you provide meaningful insight or heartfelt advice that a crewmate follows, you both clear 1 Stress.",
         clarification:
@@ -1212,7 +1213,7 @@ const specialAbilities = [
     {
         id: "eb5dde4b-3bef-4a48-a91d-430f7a2c44ac",
         playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
-        name: "BODYGUARD",
+        name: "bodyguard",
         description:
             "When you Protect a crewmate, resist with +1d. When you take harm, clear 1 Stress.",
         clarification: "The Protect teamwork maneuver lets you face a consequence for a teammate.",
@@ -1220,7 +1221,7 @@ const specialAbilities = [
     {
         id: "ef49c9f4-8591-49f5-9e84-a224556f34d4",
         playbooks_id: "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
-        name: "FIXED",
+        name: "fixed",
         description:
             "You may expend your special armor to resist a consequence from machines breaking or being damaged, or to push yourself when repairing or building a machine.",
         clarification:
@@ -1229,7 +1230,7 @@ const specialAbilities = [
     {
         id: "f22d0ae9-a8af-4508-a31b-12dada6d0050",
         playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
-        name: "SIDE JOB",
+        name: "side job",
         description:
             "You may spend a Downtime activity in port doing odd jobs. Gain 1 cred. If there are rumors floating about, the GM will tell you of them.",
         clarification:
@@ -1238,7 +1239,7 @@ const specialAbilities = [
     {
         id: "f7e5f84e-5222-4738-aac2-249c19eea89a",
         playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
-        name: "SUNDERING",
+        name: "sundering",
         description:
             "You may push yourself to Attune to The Way and twist it, causing psychic harm to anyone in the area vulnerable to your assault. You may spend 1 Stress for each additional feature: it damages instead of stuns—you and anyone you choose get +2d to resist the effects.",
         clarification:
@@ -1247,7 +1248,7 @@ const specialAbilities = [
     {
         id: "fa0a79ef-fa75-42c8-bb08-c2a7d52cae5f",
         playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
-        name: "BATTLEBORN",
+        name: "battleborn",
         description:
             "You may expend your special armor to reduce harm from an attack in combat, or to push yourself during a fight.",
         clarification:
@@ -1256,7 +1257,7 @@ const specialAbilities = [
     {
         id: "fb915569-8820-470e-8fd1-90d5dcfd8608",
         playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
-        name: "SUBTERFUGE",
+        name: "subterfuge",
         description:
             "You may expend your special armor to resist a consequence of persuasion or suspicion. When you resist with insight, gain +1d.",
         clarification:
@@ -2348,6 +2349,98 @@ const firstNames = [
     {
         id: "2b75d7c0-c282-4442-9839-726ace5cd910",
         name: "Zokar",
+    },
+];
+const actions = [
+    {
+        id: "2d955562-0706-4c52-aa6c-6434fd637785",
+        action: "attune",
+        description:
+            "When you Attune to The Way, you open your mind to the galactic energies underlying all of existence.",
+        clarification:
+            "You might communicate with a non-sentient species or robot. You could safely handle Precursor Artifacts or remnants that tap directly into The Way. You might sense unseen danger, or killing intent (though study might be better).",
+    },
+    {
+        id: "e8135559-e633-46b8-a68e-a2847fd15ce3",
+        action: "command",
+        description: "When you Command, you compel obedience with your force of personality.",
+        clarification:
+            "You might intimidate or threaten to get what you want. You might lead an action with NPCs. You might order people to do what you want (though sway might be better).",
+    },
+    {
+        id: "649ff699-7629-4b0a-bbcf-8703f790b424",
+        action: "consort",
+        description: "When you Consort, you socialize with friends and contacts.",
+        clarification:
+            "You might gain access to resources, information, people, or places. You might make a good impression or win someone over with your charm and style. You might make new friends or connect with your heritage or background. You could try to direct your friends with social pressure (but Command might be better).",
+    },
+    {
+        id: "5fddad07-5be8-4cbc-8ef4-5329d15bd9f1",
+        action: "doctor",
+        description:
+            "When you Doctor, you attend to the needs of another by lending aid and comfort, or you look scientifically at the world.",
+        clarification:
+            "You might treat someone’s injuries. You might analyze a substance’s composition to learn how it functions. You might comfort someone in distress (but Consort might be better).",
+    },
+    {
+        id: "b6b946b1-7a66-412b-bd50-8772250e6f23",
+        action: "hack",
+        description:
+            "When you hack, you breach the security systems of computers or override their controls.",
+        clarification:
+            "You might access a data console to find a captive being held somewhere on the station. You might Scramble a drone’s control systems to keep it from firing on you. You might override a door’s controls to get it to open (though rig might be better).",
+    },
+    {
+        id: "daa14d85-6a46-438c-bc69-60691fbf2d66",
+        action: "helm",
+        description: "When you helm, you pilot a vehicle or use vehicle weapons.",
+        clarification:
+            "You might plot a jump through a dark hyperspace lane. You might dive through a canyon to escape a chasing ship. You might fire quad-lasers at hostile pirates. You might reroute power on The Ship to weather fire (though rig may be better).",
+    },
+    {
+        id: "6ceb5cde-deb5-4cf3-83eb-86d238687564",
+        action: "rig",
+        description:
+            "When you rig mechanisms, you alter how an existing mechanism works or create a new one.",
+        clarification:
+            "You might disable a trap. You might repair a damaged ship system. You might crack a safe. You might overdrive an engine. You might program a bomb to detonate later. You might force a door open (though hack might be better).",
+    },
+    {
+        id: "36866e1d-d14a-4877-8220-4bbb5482aa11",
+        action: "scramble",
+        description:
+            "When you Scramble, you lift, climb, jump, run, or swim, usually either away from or into danger.",
+        clarification:
+            "You might vault over a turnstile while escaping authorities. You might climb up the side of a cliff to approach a secret base. You might dodge blaster fire as you cross the hangar to get to your ship. You might chase after a mark you’re following (though skulk might be better).",
+    },
+    {
+        id: "f6eec4e6-0b7b-4106-b38e-fa2b52b64a68",
+        action: "scrap",
+        description:
+            "When you scrap, you engage in pitched combat with the intent to harm or neutralize your opposition.",
+        clarification:
+            "You might brawl or wrestle with your foe. You might use a melee weapon. You might storm a barricade or hold a position in battle. You might lay down blaster fire. If you’re using a vehicle or ship weapon, you should use helm instead.",
+    },
+    {
+        id: "537960fb-888d-4477-8736-ca332ca683ab",
+        action: "skulk",
+        description: "When you skulk, you move stealthily or without being noticed.",
+        clarification:
+            "You might sneak past security or hide in the shadows. You might lift a cred-stick off a mark. You might sneak up behind someone to attack them by surprise (but scrap might be better). You could try to climb up the side of a building (but Scramble might be better).",
+    },
+    {
+        id: "5d9c5d61-766e-4719-ad4c-c17549412fed",
+        action: "study",
+        description: "When you study, you scrutinize details and interpret evidence.",
+        clarification:
+            "You might gather information from documents, newspapers, and books. You might do research on an esoteric topic. You might closely analyze a person to detect lies or true feelings. You could deduce a person’s intention to kill you (but Attune might be better).",
+    },
+    {
+        id: "2f13c331-8aca-42ef-a703-bb5f41e00537",
+        action: "sway",
+        description: "When you sway, you influence someone with guile, charm, or logic.",
+        clarification:
+            "You might outright lie to someone’s face. You might persuade a sucker to believe you. You might argue the facts with an officer. You could try to trick people into affection or obedience (but Consort or Command might be better).",
     },
 ];
 

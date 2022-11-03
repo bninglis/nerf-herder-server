@@ -23,7 +23,6 @@ router.get("/:id", (req, res) => {
                 res.status(404).send("I dunno, but we don't have that one on our end...");
             }
         });
-
     const playbookKeys = ["items", "special_abilities", "friends"];
     const referenceKeys = [
         "heritages",
@@ -58,7 +57,7 @@ router.get("/:id", (req, res) => {
         referenceKeys.forEach((key, index) => {
             refData[key] = JSON.parse(JSON.stringify(data))[index];
         });
-        res.json(JSON.stringify(refData));
+        res.send(refData);
     });
 });
 
