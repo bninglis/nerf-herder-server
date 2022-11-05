@@ -193,274 +193,296 @@ const playbooks = [
 ];
 const friends = [
     {
-        id: "197c0093-654f-4682-9228-21cad1662c71",
-        playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
-        type: "INFLUENTIAL FRIENDS",
-        name: "Je-zee",
-        description: "a diplomat. Were you from allied factions, or of opposing goals?",
-    },
-    {
-        id: "2109c93e-ce21-4263-bb29-2907b3258f05",
-        playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
-        type: "WEIRD FRIENDS",
-        name: "Blish",
-        description:
-            "a fellow mystic. Walking the same path or with wildly different beliefs about the Way?",
-    },
-    {
-        id: "283caa6d-2081-4b68-9706-9c498fb6af95",
-        playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
-        type: "INFLUENTIAL FRIENDS",
-        name: "____.",
-        description:
-            "Write in someone from your past when so inspired. If you gain the ability Old Friends, extend this list whenever you land in a new place.",
-    },
-    {
-        id: "2dae8fee-fe1c-404d-8950-f1db936395a4",
-        playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
-        type: "FAST FRIENDS",
-        name: "Choss",
-        description:
-            "a professional racer. Do you have hot tips for each other? Or are you always striving to outdo each other?",
-    },
-    {
-        id: "354de4e1-8f73-4183-b0e7-9ed49e85e026",
-        playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
-        type: '"FRIENDS"',
-        name: "Jal",
-        description:
-            "a ship mechanic. Have they always helped you with your ship? Or is The Ship theirs, and they want their due?",
-    },
-    {
-        id: "383c05f6-df17-4f95-b996-bdd8f4f1192b",
-        playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
-        type: "DEADLY FRIENDS",
-        name: "Yazu",
-        description:
-            "a crooked cop. Family to cover up your tracks, or someone who still hunts you for getting them in trouble?",
-    },
-    {
-        id: "3c179ad9-74c5-424a-8c1f-261c2bc51e49",
-        playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
-        type: "FAST FRIENDS",
-        name: "Yattu",
-        description:
-            "a gang boss. Did you use to fly for them? Did you leave them in the lurch on a job?",
-    },
-    {
-        id: "3dcecba0-31ad-47df-8fd1-990b09089a5c",
-        playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
-        type: "DEADLY FRIENDS",
-        name: "Shod",
-        description:
-            "a weapons dealer. A mentor or former partner who cashed out? Someone you owe?",
-    },
-    {
-        id: "3f63cb3b-b289-43b9-9759-ffb2461c22e5",
-        playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
-        type: "WEIRD FRIENDS",
-        name: "Rye",
-        description: "an unrequited love. Was it your training and customs that got between you?",
-    },
-    {
-        id: "46c591ee-f4cd-4f8c-bc3a-159d2a889073",
-        playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
-        type: '"FRIENDS"',
-        name: "Ora",
-        description: "an info broker. Always coming to you with juicy tips?",
-    },
-    {
-        id: "4dc37057-71e2-4d6b-8b20-09b257534167",
+        id: "d2bd40fb-ae56-4d1d-b90f-e5cd17c2280f",
         playbooks_id: "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
         type: "COLORFUL FRIENDS",
-        name: "Len",
-        description:
-            "a black market dealer. Do they get you the parts no one else can? Did you fail to deliver something you promised?",
-    },
-    {
-        id: "518c2ec0-7eb7-4925-a44c-56d83871ba48",
-        playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
-        type: '"FRIENDS"',
-        name: "Nyx",
-        description: "a moneylender. Are you a favorite client? Or a deadbeat with a debt?",
-    },
-    {
-        id: "6037282c-bf73-43f1-8422-fe0a07cde52a",
-        playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
-        type: "INFLUENTIAL FRIENDS",
-        name: "Arryn",
-        description:
-            "a Noble. An old friend or relative? Or someone you overstepped your bounds with?",
-    },
-    {
-        id: "70201cb5-8c56-40cc-879f-ead56054787e",
-        playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
-        type: '"FRIENDS"',
-        name: "Rhin",
-        description:
-            "a smuggler. A trustworthy source that passes on tips? A rogue that came up in the ranks with you? Or a rival in your line of work?",
-    },
-    {
-        id: "76ae55bc-1ebc-4341-9735-0e50b46364ba",
-        playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
-        type: "FAST FRIENDS",
-        name: "Mav",
-        description:
-            "a former mentor. What tricks did they teach you? Are they now jealous of your skill?",
-    },
-    {
-        id: "770e1306-d967-4f36-9912-e423a9e4d6d9",
-        playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
-        type: '"FRIENDS"',
-        name: "Battro",
-        description: "a bounty hunter. Have they let you go before? Are they looking for you now?",
-    },
-    {
-        id: "78df709d-fb55-4faa-9c50-0282db595af3",
-        playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
-        type: "FAST FRIENDS",
-        name: "Meris",
-        description:
-            "a scoundrel. Have you been on jobs together? Have they double-crossed you before?",
-    },
-    {
-        id: "7bcb5e02-7ae6-4fa1-8b01-e363b159877a",
-        playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
-        type: "WEIRD FRIENDS",
-        name: "Laxx",
-        description:
-            "a xeno. Unusual friend or a dangerous foe? Way sensitive, or your “normal” friend?",
-    },
-    {
-        id: "80e93f9b-3673-49ae-b23f-973868c20eba",
-        playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
-        type: "FAST FRIENDS",
-        name: "Triv",
-        description:
-            "a ship mechanic. Have they always helped you with your ship? Did you “forget” to pay them for a big upgrade?",
-    },
-    {
-        id: "83d26ebb-53d0-4be0-a1aa-195d4d9ee5ca",
-        playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
-        type: "INFLUENTIAL FRIENDS",
-        name: "Kerry",
-        description: "a Doctor. Do they always treat you? Or did you break their heart?",
-    },
-    {
-        id: "85560150-7959-4daa-8f68-d3f37f75c905",
-        playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
-        type: "OLD FRIENDS",
-        name: "Lynie",
-        description:
-            "a hospital admin. An old boss? Did they get in trouble for something you did?",
-    },
-    {
-        id: "9bb9a26c-5d08-4606-ae05-f6295a861e0d",
-        playbooks_id: "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
-        type: "COLORFUL FRIENDS",
-        name: "Stev",
-        description:
-            "a gambler of ill repute. Are you long-standing friends? Did you cheat at their table?",
-    },
-    {
-        id: "aa17698f-5686-431a-8045-3dbdbb30a51e",
-        playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
-        type: "OLD FRIENDS",
-        name: "Juda",
-        description:
-            "a Doctor. Do they still help you? Or was this an old rival who wants you punished for unlawful practice of medicine?",
-    },
-    {
-        id: "b35e0438-70af-4b4a-bcd0-4ef992f35fbb",
-        playbooks_id: "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
-        type: "COLORFUL FRIENDS",
-        name: "Kenn",
-        description:
-            "a family member. Are they also a mechanic? Were you both vying for a parent’s attentions?",
-    },
-    {
-        id: "b3688466-ad7f-427e-b3c1-a992f3df323e",
-        playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
-        type: "DEADLY FRIENDS",
-        name: "Krieger",
-        description:
-            "a blaster pistol. Is this your favorite sidearm? Or is a rival carrying it to use on you?",
-    },
-    {
-        id: "b98fbb51-be30-48ce-9eef-382571a56140",
-        playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
-        type: "WEIRD FRIENDS",
-        name: "Hicks",
-        description:
-            "a mystic goods supplier. A reliable supplier of Vosian crystals, or a callous opportunist preying on your faith?",
-    },
-    {
-        id: "bc237bf5-3164-41f6-9ba7-60d70421c28b",
-        playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
-        type: "WEIRD FRIENDS",
-        name: "Horux",
-        description:
-            "a former teacher. Do you go to them for advice even now? Or do they feel you’ve misused their teachings?",
+        name: "Slice",
+        description: "a junkyard owner.",
+        elaboration: "What parts do they save for you? Or did you boost something of theirs?",
     },
     {
         id: "be837e95-80eb-48ac-9d19-b77aced14572",
         playbooks_id: "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
         type: "COLORFUL FRIENDS",
         name: "Nisa",
-        description: "a previous employer. A captain or a business owner? Did it end well?",
+        description: "a previous employer.",
+        elaboration: "A captain or a business owner? Did it end well?",
     },
     {
-        id: "c52e6d1c-36d6-4888-bf0b-251ecbc3d8cc",
-        playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
-        type: "OLD FRIENDS",
-        name: "Jackev",
-        description:
-            "a drug dealer. Legitimate hookup or feeding a vice? Or did you cut into their profits?",
-    },
-    {
-        id: "d2bd40fb-ae56-4d1d-b90f-e5cd17c2280f",
+        id: "9bb9a26c-5d08-4606-ae05-f6295a861e0d",
         playbooks_id: "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
         type: "COLORFUL FRIENDS",
-        name: "Slice",
-        description:
-            "a junkyard owner. What parts do they save for you? Or did you boost something of theirs?",
+        name: "Stev",
+        description: "a gambler of ill repute.",
+        elaboration: "Are you long-standing friends? Did you cheat at their table?",
     },
     {
-        id: "d97743f8-fc83-4265-b327-d51ce08bd416",
-        playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
-        type: "INFLUENTIAL FRIENDS",
-        name: "Manda",
-        description: "a Guild member. Do you get the inside scoop? Or did you steal Guild secrets?",
+        id: "4dc37057-71e2-4d6b-8b20-09b257534167",
+        playbooks_id: "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
+        type: "COLORFUL FRIENDS",
+        name: "Len",
+        description: "a black market dealer.",
+        elaboration:
+            "Do they get you the parts no one else can? Did you fail to deliver something you promised?",
     },
     {
-        id: "e1c1930f-e547-41bb-bb52-defac8362ee2",
+        id: "b35e0438-70af-4b4a-bcd0-4ef992f35fbb",
+        playbooks_id: "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
+        type: "COLORFUL FRIENDS",
+        name: "Kenn",
+        description: "a family member.",
+        elaboration: "Are they also a mechanic? Were you both vying for a parent’s attentions?",
+    },
+    {
+        id: "b3688466-ad7f-427e-b3c1-a992f3df323e",
         playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
         type: "DEADLY FRIENDS",
-        name: "Aya",
-        description:
-            "an assassin. An old lover still fond of you? A heart spurned? Or are you the target that got away?",
+        name: "Krieger",
+        description: "a blaster pistol.",
+        elaboration: "Is this your favorite sidearm? Or is a rival carrying it to use on you?",
     },
     {
-        id: "eee88ec7-112c-472a-8457-16ae841472b1",
-        playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
-        type: "OLD FRIENDS",
-        name: "Alben",
-        description: "a former patient. What did you treat them for? How can they help you now?",
-    },
-    {
-        id: "f274e11c-83e5-43bc-876d-b3af672ab170",
-        playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
-        type: "OLD FRIENDS",
-        name: "Ditha",
-        description:
-            "a family member. Are they supportive of your work? Or are they trying to get you to come home?",
+        id: "3dcecba0-31ad-47df-8fd1-990b09089a5c",
+        playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
+        type: "DEADLY FRIENDS",
+        name: "Shod",
+        description: "a weapons dealer.",
+        elaboration: "A mentor or former partner who cashed out? Someone you owe?",
     },
     {
         id: "f5ba6747-ddf4-4273-81d7-0ac433f0955a",
         playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
         type: "DEADLY FRIENDS",
         name: "Chon-zek",
-        description: "a bounty hunter. Former partner? Or a competitor from the same background?",
+        description: "a bounty hunter.",
+        elaboration: "Former partner? Or a competitor from the same background?",
+    },
+    {
+        id: "383c05f6-df17-4f95-b996-bdd8f4f1192b",
+        playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
+        type: "DEADLY FRIENDS",
+        name: "Yazu",
+        description: "a crooked cop.",
+        elaboration:
+            "Family to cover up your tracks, or someone who still hunts you for getting them in trouble?",
+    },
+    {
+        id: "e1c1930f-e547-41bb-bb52-defac8362ee2",
+        playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
+        type: "DEADLY FRIENDS",
+        name: "Aya",
+        description: "an assassin.",
+        elaboration:
+            "An old lover still fond of you? A heart spurned? Or are you the target that got away?",
+    },
+    {
+        id: "bc237bf5-3164-41f6-9ba7-60d70421c28b",
+        playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
+        type: "WEIRD FRIENDS",
+        name: "Horux",
+        description: "a former teacher.",
+        elaboration:
+            "Do you go to them for advice even now? Or do they feel you’ve misused their teachings?",
+    },
+    {
+        id: "b98fbb51-be30-48ce-9eef-382571a56140",
+        playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
+        type: "WEIRD FRIENDS",
+        name: "Hicks",
+        description: "a mystic goods supplier.",
+        elaboration:
+            "A reliable supplier of Vosian crystals, or a callous opportunist preying on your faith?",
+    },
+    {
+        id: "7bcb5e02-7ae6-4fa1-8b01-e363b159877a",
+        playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
+        type: "WEIRD FRIENDS",
+        name: "Laxx",
+        description: "a xeno.",
+        elaboration: "Unusual friend or a dangerous foe? Way sensitive, or your “normal” friend?",
+    },
+    {
+        id: "3f63cb3b-b289-43b9-9759-ffb2461c22e5",
+        playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
+        type: "WEIRD FRIENDS",
+        name: "Rye",
+        description: "an unrequited love.",
+        elaboration: "Was it your training and customs that got between you?",
+    },
+    {
+        id: "2109c93e-ce21-4263-bb29-2907b3258f05",
+        playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
+        type: "WEIRD FRIENDS",
+        name: "Blish",
+        description: "a fellow mystic.",
+        elaboration: "Walking the same path or with wildly different beliefs about the Way?",
+    },
+    {
+        id: "3c179ad9-74c5-424a-8c1f-261c2bc51e49",
+        playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
+        type: "FAST FRIENDS",
+        name: "Yattu",
+        description: "a gang boss.",
+        elaboration: "Did you use to fly for them? Did you leave them in the lurch on a job?",
+    },
+    {
+        id: "80e93f9b-3673-49ae-b23f-973868c20eba",
+        playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
+        type: "FAST FRIENDS",
+        name: "Triv",
+        description: "a ship mechanic.",
+        elaboration:
+            "Have they always helped you with your ship? Did you “forget” to pay them for a big upgrade?",
+    },
+    {
+        id: "2dae8fee-fe1c-404d-8950-f1db936395a4",
+        playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
+        type: "FAST FRIENDS",
+        name: "Choss",
+        description: "a professional racer.",
+        elaboration:
+            "Do you have hot tips for each other? Or are you always striving to outdo each other?",
+    },
+    {
+        id: "78df709d-fb55-4faa-9c50-0282db595af3",
+        playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
+        type: "FAST FRIENDS",
+        name: "Meris",
+        description: "a scoundrel.",
+        elaboration: "Have you been on jobs together? Have they double-crossed you before?",
+    },
+    {
+        id: "76ae55bc-1ebc-4341-9735-0e50b46364ba",
+        playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
+        type: "FAST FRIENDS",
+        name: "Mav",
+        description: "a former mentor.",
+        elaboration: "What tricks did they teach you? Are they now jealous of your skill?",
+    },
+    {
+        id: "518c2ec0-7eb7-4925-a44c-56d83871ba48",
+        playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
+        type: '"FRIENDS"',
+        name: "Nyx",
+        description: "a moneylender.",
+        elaboration: "Are you a favorite client? Or a deadbeat with a debt?",
+    },
+    {
+        id: "46c591ee-f4cd-4f8c-bc3a-159d2a889073",
+        playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
+        type: '"FRIENDS"',
+        name: "Ora",
+        description: "an info broker.",
+        elaboration: "Always coming to you with juicy tips?",
+    },
+    {
+        id: "354de4e1-8f73-4183-b0e7-9ed49e85e026",
+        playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
+        type: '"FRIENDS"',
+        name: "Jal",
+        description: "a ship mechanic.",
+        elaboration:
+            "Have they always helped you with your ship? Or is The Ship theirs, and they want their due?",
+    },
+    {
+        id: "70201cb5-8c56-40cc-879f-ead56054787e",
+        playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
+        type: '"FRIENDS"',
+        name: "Rhin",
+        description: "a smuggler.",
+        elaboration:
+            "A trustworthy source that passes on tips? A rogue that came up in the ranks with you? Or a rival in your line of work?",
+    },
+    {
+        id: "770e1306-d967-4f36-9912-e423a9e4d6d9",
+        playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
+        type: '"FRIENDS"',
+        name: "Battro",
+        description: "a bounty hunter.",
+        elaboration: "Have they let you go before? Are they looking for you now?",
+    },
+    {
+        id: "6037282c-bf73-43f1-8422-fe0a07cde52a",
+        playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
+        type: "INFLUENTIAL FRIENDS",
+        name: "Arryn",
+        description: "a Noble.",
+        elaboration: "An old friend or relative? Or someone you overstepped your bounds with?",
+    },
+    {
+        id: "d97743f8-fc83-4265-b327-d51ce08bd416",
+        playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
+        type: "INFLUENTIAL FRIENDS",
+        name: "Manda",
+        description: "a Guild member.",
+        elaboration: "Do you get the inside scoop? Or did you steal Guild secrets?",
+    },
+    {
+        id: "83d26ebb-53d0-4be0-a1aa-195d4d9ee5ca",
+        playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
+        type: "INFLUENTIAL FRIENDS",
+        name: "Kerry",
+        description: "a Doctor.",
+        elaboration: "Do they always treat you? Or did you break their heart?",
+    },
+    {
+        id: "197c0093-654f-4682-9228-21cad1662c71",
+        playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
+        type: "INFLUENTIAL FRIENDS",
+        name: "Je-zee",
+        description: "a diplomat.",
+        elaboration: "Were you from allied factions, or of opposing goals?",
+    },
+    {
+        id: "283caa6d-2081-4b68-9706-9c498fb6af95",
+        playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
+        type: "INFLUENTIAL FRIENDS",
+        name: "____.",
+        description: "Write in someone from your past when so inspired.",
+        elaboration:
+            "If you gain the ability Old Friends, extend this list whenever you land in a new place",
+    },
+    {
+        id: "c52e6d1c-36d6-4888-bf0b-251ecbc3d8cc",
+        playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
+        type: "OLD FRIENDS",
+        name: "Jackev",
+        description: "a drug dealer.",
+        elaboration: "Legitimate hookup or feeding a vice? Or did you cut into their profits?",
+    },
+    {
+        id: "eee88ec7-112c-472a-8457-16ae841472b1",
+        playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
+        type: "OLD FRIENDS",
+        name: "Alben",
+        description: "a former patient.",
+        elaboration: "What did you treat them for? How can they help you now?",
+    },
+    {
+        id: "f274e11c-83e5-43bc-876d-b3af672ab170",
+        playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
+        type: "OLD FRIENDS",
+        name: "Ditha",
+        description: "a family member.",
+        elaboration:
+            "Are they supportive of your work? Or are they trying to get you to come home?",
+    },
+    {
+        id: "aa17698f-5686-431a-8045-3dbdbb30a51e",
+        playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
+        type: "OLD FRIENDS",
+        name: "Juda",
+        description: "a Doctor.",
+        elaboration:
+            "Do they still help you? Or was this an old rival who wants you punished for unlawful practice of medicine?",
+    },
+    {
+        id: "85560150-7959-4daa-8f68-d3f37f75c905",
+        playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
+        type: "OLD FRIENDS",
+        name: "Lynie",
+        description: "a hospital admin.",
+        elaboration: "An old boss? Did they get in trouble for something you did?",
     },
 ];
 const items = [
@@ -1590,37 +1612,37 @@ const buildSuggestions = [
 const heritages = [
     {
         id: "1e8dbfa5-2124-489a-846d-1fd520c0e1f0",
-        heritage: "imperial",
+        type: "imperial",
         description:
-            "Those with imperial heritage hail from Warren or the Core worlds. You were brought up educated in ways of The Hegemony, through a Guild vocational education, Cult teachings, or Noble family tutors.",
+            "Those with imperial type hail from Warren or the Core worlds. You were brought up educated in ways of The Hegemony, through a Guild vocational education, Cult teachings, or Noble family tutors.",
     },
     {
         id: "f950f30c-4a7a-47a3-8944-413be401d9af",
-        heritage: "spacer",
+        type: "spacer",
         description:
             "If you’d rather be more at home on a creaking ship, you could be from a spacer family. Ice miners, station mechanics, and most merchants are born, grow old, and die in space—and may or may not view your terrestrial ventures with suspicion.",
     },
     {
         id: "c68a9712-79c6-446b-b30a-ca1985eacd62",
-        heritage: "colonist",
+        type: "colonist",
         description:
             "The exact opposite are colonist families. Farmers, miners, and terraformers form the backbone of the Hegemony. Fighting for a living on the borders of planets, these folks deal with alien beasts and odd Precursor ruins more than most.",
     },
     {
         id: "49c341b5-2a15-455c-b6cf-fb8e71f0bf84",
-        heritage: "manufactured",
+        type: "manufactured",
         description:
             "Manufactured “families” are fundamentally controlled in some way by the Guilds—for example, a Yaru clone who’s escaped from a facility or a Urbot that’s avoided routine memory wipes. You may often have to hide your origin and independence.",
     },
     {
         id: "4bf4ab75-b4d4-4475-9467-1cfdaac4dc85",
-        heritage: "wanderer",
+        type: "wanderer",
         description:
-            "If you want to be without a planet to call home, you could be from a wanderer heritage. A small but notable portion of The Hegemony move from planet to planet, as opportunities emerge and galactic economic cycles shift. Or just follow where The Way takes you.",
+            "If you want to be without a planet to call home, you could be from a wanderer type. A small but notable portion of The Hegemony move from planet to planet, as opportunities emerge and galactic economic cycles shift. Or just follow where The Way takes you.",
     },
     {
         id: "70d96cd6-a280-44d6-8d7b-47b079015b36",
-        heritage: "xeno",
+        type: "xeno",
         description:
             "Xeno families are as diverse as the countless kinds of xenos in the galaxy. You were raised in a non-human culture. Xenos struggle to find acceptance in The Hegemony, and many of their practices are seen as strange or unusual.",
     },
@@ -1628,42 +1650,42 @@ const heritages = [
 const backgrounds = [
     {
         id: "0ad31b2c-ac6e-423c-8bc9-07c453ad57da",
-        background: "Academic",
+        type: "Academic",
         description: "A professor, student, researcher, or other knowledge-driven vocation.",
     },
     {
         id: "2a388aee-e449-4dfd-8787-4f5558f06ab7",
-        background: "Labor",
+        type: "Labor",
         description:
             "A factory worker, driver, dockhand, miner, or other tradesperson. The majority of The Hegemony is of this background.",
     },
     {
         id: "2d530e5f-3bf8-4471-a5cb-2eedcbb22c5e",
-        background: "Cult",
+        type: "Cult",
         description:
             "Part of a Cult, officially sanctioned or not. A holy warrior, priest, or religious devotee.",
     },
     {
         id: "e4c7879c-c6a5-47ea-95ba-bc6e528038c7",
-        background: "Guilder",
+        type: "Guilder",
         description:
             "Involved in the of machinations of a Guild, such as a ship designer, financial analyst, or logistics officer.",
     },
     {
         id: "e5a37b1e-0861-4bc7-aff7-bafe596c13d8",
-        background: "Military",
+        type: "Military",
         description:
             "A Hegemonic soldier, mercenary, intelligence operative, strategist, training instructor, etc.",
     },
     {
         id: "5d8f4a11-addd-412d-aa1f-9aed59541c89",
-        background: "Noble",
+        type: "Noble",
         description:
             "Living the life of luxury, such as a dilettante, someone caught up in House politics, etc.",
     },
     {
         id: "8e640997-779e-49ae-9975-1272fd809084",
-        background: "Syndicate",
+        type: "Syndicate",
         description:
             "Part of an organized criminal gang, from the lowest lookout to ousted former crime lord.",
     },
@@ -1671,38 +1693,38 @@ const backgrounds = [
 const vices = [
     {
         id: "d109c67c-46d9-47d5-adbd-72a69d4b0138",
-        vice: "Faith",
+        type: "Faith",
         description: "You’re part of a Cult, or observe specific ceremonies at regular intervals.",
     },
     {
         id: "b81e2316-d0c4-4904-be1e-f518ce6ba806",
-        vice: "Gambling",
+        type: "Gambling",
         description: "You crave games of chance, or bet on sporting events, etc.",
     },
     {
         id: "30543565-bf6b-4eb7-a754-4730583c304b",
-        vice: "Luxury",
+        type: "Luxury",
         description: "You seek the high life with expensive, ostentatious displays of wealth.",
     },
     {
         id: "c7b0d8b0-63ed-4e87-a4da-8c322482ba17",
-        vice: "Obligation",
+        type: "Obligation",
         description: "You’re devoted to a family, cause, organization, charity, etc.",
     },
     {
         id: "ed60f373-3f7f-4f2c-b876-0ea17d6792a5",
-        vice: "Pleasure",
+        type: "Pleasure",
         description: "You seek hedonistic gratification from lovers, food, drink, drugs, art, etc.",
     },
     {
         id: "3c74ab6d-608e-4f75-a03e-b1e78ef10a57",
-        vice: "Stupor",
+        type: "Stupor",
         description:
             "You dull the senses with drug abuse, excessive drinking, fighting to exhaustion, etc.",
     },
     {
         id: "6e2a4482-7926-4b67-9ab0-638df8952ea1",
-        vice: "Weird",
+        type: "Weird",
         description:
             "You perform strange experiments, explore The Way, commune with Ur Artifacts, and so on.",
     },

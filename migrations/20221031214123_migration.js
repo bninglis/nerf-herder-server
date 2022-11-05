@@ -27,7 +27,8 @@ exports.up = function (knex) {
             table.uuid("playbooks_id").notNullable();
             table.string("type").notNullable();
             table.string("name").notNullable();
-            table.text("description").notNullable();
+            table.string("description").notNullable();
+            table.text("elaboration").notNullable();
             table.index("id");
             table
                 .foreign("playbooks_id")
@@ -103,19 +104,19 @@ exports.up = function (knex) {
         })
         .createTable("heritages", function (table) {
             table.uuid("id", (options = { useBinaryUuid: false, primaryKey: true }));
-            table.string("heritage").notNullable();
+            table.string("type").notNullable();
             table.text("description").notNullable();
             table.index("id");
         })
         .createTable("backgrounds", function (table) {
             table.uuid("id", (options = { useBinaryUuid: false, primaryKey: true }));
-            table.string("background").notNullable();
+            table.string("type").notNullable();
             table.text("description").notNullable();
             table.index("id");
         })
         .createTable("vices", function (table) {
             table.uuid("id", (options = { useBinaryUuid: false, primaryKey: true }));
-            table.string("vice").notNullable();
+            table.string("type").notNullable();
             table.text("description").notNullable();
             table.index("id");
         })
