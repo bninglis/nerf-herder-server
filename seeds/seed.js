@@ -2777,8 +2777,8 @@ exports.seed = async function (knex) {
     await knex("items").insert(items);
     await knex("special_abilities").del();
     await knex("special_abilities").insert(specialAbilities);
-    await knex("build_name").del();
-    await knex("build_name").insert(buildSuggestions);
+    await knex("build_suggestions").del();
+    await knex("build_suggestions").insert(buildSuggestions);
     await knex("heritages").del();
     await knex("heritages").insert(heritages);
     await knex("backgrounds").del();
