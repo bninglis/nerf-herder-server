@@ -1252,7 +1252,7 @@ const specialAbilities = [
 const buildSuggestions = [
     {
         id: "188152de-0eac-4b50-affb-bdbf3dc20032",
-        build_suggestions: "Ship mechanic",
+        build_name: "Ship mechanic",
         playbook: "mechanic",
         playbooks_id: "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
         special_ability: "Fixed",
@@ -1264,7 +1264,7 @@ const buildSuggestions = [
     },
     {
         id: "57b8f556-f782-45fd-bc7e-1f77efc5e61e",
-        build_suggestions: "Computer whiz",
+        build_name: "Computer whiz",
         playbook: "mechanic",
         playbooks_id: "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
         special_ability: "Hacker",
@@ -1276,7 +1276,7 @@ const buildSuggestions = [
     },
     {
         id: "2640e193-1010-4b22-adec-cd5f05f79f26",
-        build_suggestions: "Bot builder",
+        build_name: "Bot builder",
         playbook: "mechanic",
         playbooks_id: "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
         special_ability: "Construct Whisperer",
@@ -1288,7 +1288,7 @@ const buildSuggestions = [
     },
     {
         id: "94197ad6-0c0c-4250-bcfd-d895824b9a96",
-        build_suggestions: "Ship owner",
+        build_name: "Ship owner",
         playbook: "mechanic",
         playbooks_id: "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
         special_ability: "Junkyard Hunter",
@@ -1300,7 +1300,7 @@ const buildSuggestions = [
     },
     {
         id: "b8ebb3ff-2cea-45f4-a5ed-e11cb480fee7",
-        build_suggestions: "Gladiator",
+        build_name: "Gladiator",
         playbook: "muscle",
         playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
         special_ability: "Wrecking Crew",
@@ -1312,7 +1312,7 @@ const buildSuggestions = [
     },
     {
         id: "19647df6-60f6-43f3-b918-70e97b7e9a67",
-        build_suggestions: "Protector",
+        build_name: "Protector",
         playbook: "muscle",
         playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
         special_ability: "Bodyguard",
@@ -1324,7 +1324,7 @@ const buildSuggestions = [
     },
     {
         id: "83007d9f-8318-4617-9450-0c27520aab11",
-        build_suggestions: "Mystic hunter",
+        build_name: "Mystic hunter",
         playbook: "muscle",
         playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
         special_ability: "Battleborn",
@@ -1336,7 +1336,7 @@ const buildSuggestions = [
     },
     {
         id: "8b205076-c8a1-404d-8db6-e245352cf4f2",
-        build_suggestions: "Action hero",
+        build_name: "Action hero",
         playbook: "muscle",
         playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
         special_ability: "Flesh Wound",
@@ -1348,7 +1348,7 @@ const buildSuggestions = [
     },
     {
         id: "19cc574d-f38f-42a9-ae8b-d29c732ecb4b",
-        build_suggestions: "Wandering warrior",
+        build_name: "Wandering warrior",
         playbook: "mystic",
         playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
         special_ability: "Psy-Blade",
@@ -1360,7 +1360,7 @@ const buildSuggestions = [
     },
     {
         id: "832ca1bb-7ded-4bb8-ab75-2753d661fcdd",
-        build_suggestions: "Mystic healer",
+        build_name: "Mystic healer",
         playbook: "mystic",
         playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
         special_ability: "Visions",
@@ -1372,7 +1372,7 @@ const buildSuggestions = [
     },
     {
         id: "793df5d7-611e-425f-ad1e-e27600c123d7",
-        build_suggestions: "Way ghost",
+        build_name: "Way ghost",
         playbook: "mystic",
         playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
         special_ability: "Kinetics",
@@ -1384,7 +1384,7 @@ const buildSuggestions = [
     },
     {
         id: "5c65082a-61e7-4cea-b8d6-5d94255e37b1",
-        build_suggestions: "Mentalist",
+        build_name: "Mentalist",
         playbook: "mystic",
         playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
         special_ability: "Psy-Dancing",
@@ -1396,7 +1396,7 @@ const buildSuggestions = [
     },
     {
         id: "707b7059-f95b-4025-832c-577e7eb15b53",
-        build_suggestions: "Glory hound",
+        build_name: "Glory hound",
         playbook: "pilot",
         playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
         special_ability: "Exceed Specs",
@@ -1408,7 +1408,7 @@ const buildSuggestions = [
     },
     {
         id: "cfea8339-1d7d-46a1-bd7f-8b06a438fbad",
-        build_suggestions: "Thrillseeker",
+        build_name: "Thrillseeker",
         playbook: "pilot",
         playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
         special_ability: "Punch it!",
@@ -1420,7 +1420,7 @@ const buildSuggestions = [
     },
     {
         id: "807a8bdb-1143-497a-a97f-657df6bcb1cb",
-        build_suggestions: "Captain",
+        build_name: "Captain",
         playbook: "pilot",
         playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
         special_ability: "Commander",
@@ -1432,7 +1432,7 @@ const buildSuggestions = [
     },
     {
         id: "e4da76c3-5281-4024-8716-d14313827f0a",
-        build_suggestions: "Gunslinger",
+        build_name: "Gunslinger",
         playbook: "pilot",
         playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
         special_ability: "Keen Eye",
@@ -1444,7 +1444,7 @@ const buildSuggestions = [
     },
     {
         id: "126fb56e-f0a5-44a1-98f6-9769541c5f64",
-        build_suggestions: "Captain",
+        build_name: "Captain",
         playbook: "scoundrel",
         playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
         special_ability: "Never Tell Me the Odds",
@@ -1456,7 +1456,7 @@ const buildSuggestions = [
     },
     {
         id: "0471509b-821f-4960-b04c-0774cfdc80a7",
-        build_suggestions: "Relic hunter",
+        build_name: "Relic hunter",
         playbook: "scoundrel",
         playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
         special_ability: "Daredevil",
@@ -1468,7 +1468,7 @@ const buildSuggestions = [
     },
     {
         id: "1bb5fb12-c511-4fef-8068-d65dc7fe21b7",
-        build_suggestions: "Ex-detective",
+        build_name: "Ex-detective",
         playbook: "scoundrel",
         playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
         special_ability: "Ask Questions Later",
@@ -1480,7 +1480,7 @@ const buildSuggestions = [
     },
     {
         id: "ac8131b4-5d15-455b-ba5e-f69eb60627c7",
-        build_suggestions: "Veteran of Core Wars",
+        build_name: "Veteran of Core Wars",
         playbook: "scoundrel",
         playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
         special_ability: "Tenacious",
@@ -1492,7 +1492,7 @@ const buildSuggestions = [
     },
     {
         id: "9a6bbc34-b2ca-4bda-b209-1901e852dddd",
-        build_suggestions: "Smooth talker",
+        build_name: "Smooth talker",
         playbook: "speaker",
         playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
         special_ability: "Subterfuge",
@@ -1504,7 +1504,7 @@ const buildSuggestions = [
     },
     {
         id: "7358f4e4-acb3-4e04-9c31-deacd3532834",
-        build_suggestions: "Ship owner",
+        build_name: "Ship owner",
         playbook: "speaker",
         playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
         special_ability: "Favors Owed",
@@ -1516,7 +1516,7 @@ const buildSuggestions = [
     },
     {
         id: "5b195a33-ebb0-4081-8138-e47135f3c7e2",
-        build_suggestions: "Spy",
+        build_name: "Spy",
         playbook: "speaker",
         playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
         special_ability: "Infiltrator",
@@ -1528,7 +1528,7 @@ const buildSuggestions = [
     },
     {
         id: "bcd177ec-8432-4df4-b1de-312b6f3981ca",
-        build_suggestions: "Counselor",
+        build_name: "Counselor",
         playbook: "speaker",
         playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
         special_ability: "Heart to Heart",
@@ -1540,7 +1540,7 @@ const buildSuggestions = [
     },
     {
         id: "c15f2ffa-c670-466d-9e4f-61bf1302fc6c",
-        build_suggestions: "Wandering healer",
+        build_name: "Wandering healer",
         playbook: "stitch",
         playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
         special_ability: "Welcome Anywhere",
@@ -1552,7 +1552,7 @@ const buildSuggestions = [
     },
     {
         id: "afa1d3e1-f863-4a78-80fa-fbf1e10ccfc9",
-        build_suggestions: "Mad scientist",
+        build_name: "Mad scientist",
         playbook: "stitch",
         playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
         special_ability: "Dr. Strange",
@@ -1564,7 +1564,7 @@ const buildSuggestions = [
     },
     {
         id: "ce1c3eca-cc12-43ef-8c7d-af3660c8411b",
-        build_suggestions: "Action medic",
+        build_name: "Action medic",
         playbook: "stitch",
         playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
         special_ability: "Combat Medic",
@@ -1576,7 +1576,7 @@ const buildSuggestions = [
     },
     {
         id: "50d73ed8-017f-4406-84a1-2e03655d9757",
-        build_suggestions: "Researcher",
+        build_name: "Researcher",
         playbook: "stitch",
         playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
         special_ability: "Book Learning",
@@ -2777,8 +2777,8 @@ exports.seed = async function (knex) {
     await knex("items").insert(items);
     await knex("special_abilities").del();
     await knex("special_abilities").insert(specialAbilities);
-    await knex("build_suggestions").del();
-    await knex("build_suggestions").insert(buildSuggestions);
+    await knex("build_name").del();
+    await knex("build_name").insert(buildSuggestions);
     await knex("heritages").del();
     await knex("heritages").insert(heritages);
     await knex("backgrounds").del();

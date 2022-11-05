@@ -65,7 +65,7 @@ exports.up = function (knex) {
         })
         .createTable("build_suggestions", function (table) {
             table.uuid("id", (options = { useBinaryUuid: false, primaryKey: true })).notNullable();
-            table.string("build_suggestions").notNullable();
+            table.string("build_name").notNullable();
             table.string("playbook").notNullable();
             table.uuid("playbooks_id").notNullable();
             table.string("special_ability").notNullable();
