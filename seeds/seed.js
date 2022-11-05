@@ -2,7 +2,6 @@
  * @param { import("knex").Knex } knex
  * @returns { Promise<void> }
  */
- items_fdescription
 
 const playbooks = [
     {
@@ -20,8 +19,6 @@ const playbooks = [
         character_questions:
             "Who was the last person you cheated out of their due? Are you loyal to this crew, or are they just a means to an end? How many times have you been left for dead?",
         starting_actions: "Sway 2, Skulk 1",
-        build_suggestions:
-            "Captain. Helm +2, Scramble +2. Never Tell Me the Odds.\nRelic hunter. Doctor +1, Study +1, Attune +2. Daredevil.\nEx-detective. Doctor +1, Study +1, Consort +2. Ask Questions Later.\nVeteran of Core Wars. Helm +1, Scramble +1 Scrap +2. Tenacious.",
         starting_ability: "serendipitous",
         starting_ability_summary: "Your crew starts with +1 gambit when the pool resets.",
         starting_ability_clarification:
@@ -48,8 +45,6 @@ const playbooks = [
         character_questions:
             "What research interests you? What do you charge for your services? How did you learn your trade?",
         starting_actions: "Doctor 2, Study 1",
-        build_suggestions:
-            "Wandering healer. Consort +2, Sway +2. Welcome Anywhere.\nMad scientist. Scramble +1, Attune +2, Sway +1. Dr. Strange.\nAction medic. Scramble +1, Scrap +2, Sway +1. Combat Medic.\nResearcher. Study +1, Skulk +1, Sway +2. Book Learning.",
         starting_ability: "I’m a Doctor, not a…",
         starting_ability_summary:
             "You can push yourself to roll your Doctor rating while performing a different action. Say which patient, research, or posting taught you this trick.",
@@ -77,8 +72,6 @@ const playbooks = [
         character_questions:
             "Did you make your own drone? How’d you learn your technical skills? Where’d you find your pet and what is it? Are you unassuming, fading into a crowd, or hard to miss, covered in tattoos?",
         starting_actions: "Rig 2, Study 1",
-        build_suggestions:
-            "Ship mechanic. Hack +2, Scramble +1, Sway +1. Fixed.\nComputer whiz. Hack +2, Skulk +1, Sway +1. Hacker.\nBot builder. Hack +1, Scramble +1, Attune +2. Construct Whisperer.\nShip owner. Helm +2, Scrap +1, Command +1. Junkyard Hunter.",
         starting_ability: "tinker",
         starting_ability_summary:
             "When you work on a clock with rig or hack, or when you study a schematic, fill +1 segment.",
@@ -90,7 +83,7 @@ const playbooks = [
             "Playing a Mechanic is foremost about your relationship with The Ship. No one else will have the same ability to keep it flying, and when something breaks, all eyes will be on you. Look for opportunities to bring up what you’ve personally modified on The Ship. Where do you get parts when The Ship needs something repaired?\n\nHow did you become a mechanic? Were you mentored by one of your friends? Were you once a Guild trainee? Why did you leave and join the crew? Do you approach fixing The Ship as a stop-gap solution, where you’re simply trying to find a patch until the next thing breaks, or is it a matter of pride that something never fails twice?\n\nFamiliarize yourself with the crafting system. The ability for you to make new devices is very powerful, and the starting Tinker ability gives you an advantage that no one else will be able to match. Ask the rest of the crew what devices you might be able to create and get them to chip in for their development, either in extra downtimes to speed up Design or with extra cred to pay for Assembly.\n\nAction-wise, you may want to pick up skulk if you tend to lurk in the background, or Attune if you expect to be working on Ur machines or Urbots. If you also serve as the crew’s foremost computer and system expert, you’ll want to stack some hack.\n\nVeteran ability-wise, the Speaker’s Old Friends ability can play up your connections among crafters and hackers. If you want to go full mad scientist, look at the Stitch’s Dr. Strange ability.",
         xeno_advice:
             "Every species has Mechanics, so when playing a xeno, consider how that xenotype relates to machines. Some xenos have an unusual relationship with technology (particularly Ur-based technology), such as the Sah’iir, while others use unusual materials, like the Mem.\n\nDoes your species have an unusual adaptation for working on machines? Are they small and fit into ventilation ducts easily? Also consider how your xeno adaptations might reflect sides of you that aren’t directly relating to machines.\n\nHow does your xeno heritage fit into the story? Have the Guilds excluded your character from certain opportunities because you aren’t human? Or have your people been embraced, perhaps because of an adaptation that The Hegemony could utilize?",
-    }, 
+    },
     {
         playbook: "muscle",
         id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
@@ -106,8 +99,6 @@ const playbooks = [
         character_questions:
             "Do you have a personal code that you follow? Times you won’t apply violence no matter the cost? What caused you to throw your lot in with the crew and not seek employment as a soldier?",
         starting_actions: "Scrap 2, Command 1",
-        build_suggestions:
-            "Gladiator. Scramble +1, Skulk +1, Command +1. Wrecking Crew.\nProtector. Doctor +1, Study +2, Scramble +1. Bodyguard.\nMystic hunter. Attune +2, Helm +1, Scramble +1. Battleborn.\nAction hero. Rig +1, Helm +1, Scramble +2. Flesh Wound.",
         starting_ability: "unstoppable",
         starting_ability_summary:
             "You can push yourself to do one of the following: perform a feat of physical force that verges on the superhuman—engage a small gang on equal footing in close combat.",
@@ -135,8 +126,6 @@ const playbooks = [
         character_questions:
             "Why did you turn to a life of crime? What walk of life did you come from? How much do you still keep in touch with it?",
         starting_actions: "Consort 2, Command 1",
-        build_suggestions:
-            "Smooth talker. Study +1, Command +1, Sway +2. Subterfuge.\nShip owner. Helm +2, Skulk +1, Sway +1. Favors Owed.\nSpy. Hack +1, Skulk +2, Sway +1. Infiltrator.\nCounselor. Doctor +2, Study +1, Scramble +1. Heart to Heart.",
         starting_ability: "air of respectability",
         starting_ability_summary:
             "You get an extra Downtime activity to Acquire Assets or Lay Low.",
@@ -163,8 +152,6 @@ const playbooks = [
         character_questions:
             "How’d you get so good with ships? What’s the most risky stunt you’ve pulled off—and who knows about it? How did you get an Urbot? Are you fearless, or just very, very good?",
         starting_actions: "Helm 2, Rig 1",
-        build_suggestions:
-            "Glory hound. Scramble +2, Scrap +1, Sway +1. Exceed Specs.\nThrillseeker. Scramble +2, Command +1, Sway +1. Punch it!\nCaptain. Scrap +1, Command +2, Consort +1. Commander.\nGunslinger. Study +1, Scrap +2, Command +1. Keen Eye.",
         starting_ability: "ace pilot",
         starting_ability_summary:
             "You have Potency on all speed-related rolls. When you roll to resist the Consequences of piloting, gain +1d.",
@@ -192,8 +179,6 @@ const playbooks = [
         character_questions:
             "How did you come by your understanding of the Way? Does your path have any special creed or curious practices? How long have you been traveling?",
         starting_actions: "Attune 2, Scramble 1",
-        build_suggestions:
-            "Wandering warrior. Study +1, Scrap +2, Command +1. Psy-Blade.\nMystic healer. Doctor +2, Study +1, Consort +1. Visions.\nWay ghost. Scramble +1, Skulk +2, Sway +1. Kinetics.\nMentalist. Skulk +1, Consort +1, Sway +2. Psy-Dancing.",
         starting_ability: "The Way",
         starting_ability_summary: "You can spend a gambit instead of paying any Stress cost.",
         starting_ability_clarification:
@@ -1262,6 +1247,344 @@ const specialAbilities = [
             "You may expend your special armor to resist a consequence of persuasion or suspicion. When you resist with insight, gain +1d.",
         clarification:
             "When you use this ability, tick the special armor box on your playbook sheet. Folks doubting your lies, stories, cover, etc., all count for the purpose of suspicion or persuasion. Your special armor is restored when you select your load at the start of a job.",
+    },
+];
+const buildSuggestions = [
+    {
+        id: "188152de-0eac-4b50-affb-bdbf3dc20032",
+        build_suggestions: "Ship mechanic",
+        playbook: "mechanic",
+        playbooks_id: "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
+        special_ability: "Fixed",
+        special_abilities_id: "ef49c9f4-8591-49f5-9e84-a224556f34d4",
+        action_1: "Hack",
+        action_2: "Hack",
+        action_3: "Scramble",
+        action_4: "Sway",
+    },
+    {
+        id: "57b8f556-f782-45fd-bc7e-1f77efc5e61e",
+        build_suggestions: "Computer whiz",
+        playbook: "mechanic",
+        playbooks_id: "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
+        special_ability: "Hacker",
+        special_abilities_id: "938cc9c2-417a-425c-9794-f9a5b65dc1c5",
+        action_1: "Hack",
+        action_2: "Hack",
+        action_3: "Skulk",
+        action_4: "Sway",
+    },
+    {
+        id: "2640e193-1010-4b22-adec-cd5f05f79f26",
+        build_suggestions: "Bot builder",
+        playbook: "mechanic",
+        playbooks_id: "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
+        special_ability: "Construct Whisperer",
+        special_abilities_id: "018ba9b7-193b-4661-912b-b8b43144200e",
+        action_1: "Hack",
+        action_2: "Scramble",
+        action_3: "Attune",
+        action_4: "Attune",
+    },
+    {
+        id: "94197ad6-0c0c-4250-bcfd-d895824b9a96",
+        build_suggestions: "Ship owner",
+        playbook: "mechanic",
+        playbooks_id: "4d7f5b63-fb0a-4d09-a18f-e99a97781aef",
+        special_ability: "Junkyard Hunter",
+        special_abilities_id: "cbcb111a-1cbe-4d01-abeb-a7b36ba1aee7",
+        action_1: "Helm",
+        action_2: "Helm",
+        action_3: "Scrap",
+        action_4: "Command",
+    },
+    {
+        id: "b8ebb3ff-2cea-45f4-a5ed-e11cb480fee7",
+        build_suggestions: "Gladiator",
+        playbook: "muscle",
+        playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
+        special_ability: "Wrecking Crew",
+        special_abilities_id: "64f3e96a-8c97-4643-983e-2d7e71ba9a87",
+        action_1: "Scramble",
+        action_2: "Scramble",
+        action_3: "Skulk",
+        action_4: "Command",
+    },
+    {
+        id: "19647df6-60f6-43f3-b918-70e97b7e9a67",
+        build_suggestions: "Protector",
+        playbook: "muscle",
+        playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
+        special_ability: "Bodyguard",
+        special_abilities_id: "eb5dde4b-3bef-4a48-a91d-430f7a2c44ac",
+        action_1: "Doctor",
+        action_2: "Study",
+        action_3: "Study",
+        action_4: "Scramble",
+    },
+    {
+        id: "83007d9f-8318-4617-9450-0c27520aab11",
+        build_suggestions: "Mystic hunter",
+        playbook: "muscle",
+        playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
+        special_ability: "Battleborn",
+        special_abilities_id: "fa0a79ef-fa75-42c8-bb08-c2a7d52cae5f",
+        action_1: "Attune",
+        action_2: "Attune",
+        action_3: "Helm",
+        action_4: "Scramble",
+    },
+    {
+        id: "8b205076-c8a1-404d-8db6-e245352cf4f2",
+        build_suggestions: "Action hero",
+        playbook: "muscle",
+        playbooks_id: "765d36e1-14b8-49d2-ac23-6fe55c78f1d8",
+        special_ability: "Flesh Wound",
+        special_abilities_id: "23420375-3129-4041-93d2-4bb3843c4285",
+        action_1: "Rig",
+        action_2: "Helm",
+        action_3: "Scramble",
+        action_4: "Scramble",
+    },
+    {
+        id: "19cc574d-f38f-42a9-ae8b-d29c732ecb4b",
+        build_suggestions: "Wandering warrior",
+        playbook: "mystic",
+        playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
+        special_ability: "Psy-Blade",
+        special_abilities_id: "654daf47-a487-4ed6-9d65-9e4a5a979867",
+        action_1: "Study",
+        action_2: "Scrap",
+        action_3: "Scrap",
+        action_4: "Command",
+    },
+    {
+        id: "832ca1bb-7ded-4bb8-ab75-2753d661fcdd",
+        build_suggestions: "Mystic healer",
+        playbook: "mystic",
+        playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
+        special_ability: "Visions",
+        special_abilities_id: "b62127c0-6b38-480d-b6aa-edbba1b152ca",
+        action_1: "Doctor",
+        action_2: "Doctor",
+        action_3: "Study",
+        action_4: "Consort",
+    },
+    {
+        id: "793df5d7-611e-425f-ad1e-e27600c123d7",
+        build_suggestions: "Way ghost",
+        playbook: "mystic",
+        playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
+        special_ability: "Kinetics",
+        special_abilities_id: "619137a6-203b-4409-b2a9-5e71fc672ffc",
+        action_1: "Scramble",
+        action_2: "Skulk",
+        action_3: "Skulk",
+        action_4: "Sway",
+    },
+    {
+        id: "5c65082a-61e7-4cea-b8d6-5d94255e37b1",
+        build_suggestions: "Mentalist",
+        playbook: "mystic",
+        playbooks_id: "e201591f-d9b4-4c78-b6d8-6c6f19bb009f",
+        special_ability: "Psy-Dancing",
+        special_abilities_id: "dd2d447f-eb02-4d03-be29-87e3823a4315",
+        action_1: "Skulk",
+        action_2: "Consort",
+        action_3: "Sway",
+        action_4: "Sway",
+    },
+    {
+        id: "707b7059-f95b-4025-832c-577e7eb15b53",
+        build_suggestions: "Glory hound",
+        playbook: "pilot",
+        playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
+        special_ability: "Exceed Specs",
+        special_abilities_id: "a9153de3-e87b-4479-b7d8-978947033214",
+        action_1: "Scramble",
+        action_2: "Scramble",
+        action_3: "Scrap",
+        action_4: "Sway",
+    },
+    {
+        id: "cfea8339-1d7d-46a1-bd7f-8b06a438fbad",
+        build_suggestions: "Thrillseeker",
+        playbook: "pilot",
+        playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
+        special_ability: "Punch it!",
+        special_abilities_id: "d1af1d76-7b4a-4723-8df1-0092e89c5170",
+        action_1: "Scramble",
+        action_2: "Scramble",
+        action_3: "Command",
+        action_4: "Sway",
+    },
+    {
+        id: "807a8bdb-1143-497a-a97f-657df6bcb1cb",
+        build_suggestions: "Captain",
+        playbook: "pilot",
+        playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
+        special_ability: "Commander",
+        special_abilities_id: "67227801-d08e-4100-bb1d-e75fcd70f30d",
+        action_1: "Scrap",
+        action_2: "Command",
+        action_3: "Command",
+        action_4: "Consort",
+    },
+    {
+        id: "e4da76c3-5281-4024-8716-d14313827f0a",
+        build_suggestions: "Gunslinger",
+        playbook: "pilot",
+        playbooks_id: "90751430-77e8-4696-bbce-c3a64f31d79a",
+        special_ability: "Keen Eye",
+        special_abilities_id: "6ea5354a-c894-42a0-9bbb-e607cc4ef1dd",
+        action_1: "Study",
+        action_2: "Scrap",
+        action_3: "Scrap",
+        action_4: "Command",
+    },
+    {
+        id: "126fb56e-f0a5-44a1-98f6-9769541c5f64",
+        build_suggestions: "Captain",
+        playbook: "scoundrel",
+        playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
+        special_ability: "Never Tell Me the Odds",
+        special_abilities_id: "5272ed19-090e-448e-8a1e-0ef5da57e51b",
+        action_1: "Helm",
+        action_2: "Helm",
+        action_3: "Scramble",
+        action_4: "Scramble",
+    },
+    {
+        id: "0471509b-821f-4960-b04c-0774cfdc80a7",
+        build_suggestions: "Relic hunter",
+        playbook: "scoundrel",
+        playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
+        special_ability: "Daredevil",
+        special_abilities_id: "6a14ee42-7dea-402a-b0e4-9d306ba43a51",
+        action_1: "Doctor",
+        action_2: "Study",
+        action_3: "Attune",
+        action_4: "Attune",
+    },
+    {
+        id: "1bb5fb12-c511-4fef-8068-d65dc7fe21b7",
+        build_suggestions: "Ex-detective",
+        playbook: "scoundrel",
+        playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
+        special_ability: "Ask Questions Later",
+        special_abilities_id: "ad787459-489e-43a2-a551-9992b835e87f",
+        action_1: "Doctor",
+        action_2: "Study",
+        action_3: "Consort",
+        action_4: "Consort",
+    },
+    {
+        id: "ac8131b4-5d15-455b-ba5e-f69eb60627c7",
+        build_suggestions: "Veteran of Core Wars",
+        playbook: "scoundrel",
+        playbooks_id: "3e7519b4-26f7-4f40-81df-19275fe2ca63",
+        special_ability: "Tenacious",
+        special_abilities_id: "50c935f7-1515-4dff-a5fc-3e042baae9b4",
+        action_1: "Helm",
+        action_2: "Scramble",
+        action_3: "Scrap",
+        action_4: "Scrap",
+    },
+    {
+        id: "9a6bbc34-b2ca-4bda-b209-1901e852dddd",
+        build_suggestions: "Smooth talker",
+        playbook: "speaker",
+        playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
+        special_ability: "Subterfuge",
+        special_abilities_id: "fb915569-8820-470e-8fd1-90d5dcfd8608",
+        action_1: "Study",
+        action_2: "Command",
+        action_3: "Sway",
+        action_4: "Sway",
+    },
+    {
+        id: "7358f4e4-acb3-4e04-9c31-deacd3532834",
+        build_suggestions: "Ship owner",
+        playbook: "speaker",
+        playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
+        special_ability: "Favors Owed",
+        special_abilities_id: "14270291-a5a9-4321-ae80-144664b6e5b5",
+        action_1: "Helm",
+        action_2: "Helm",
+        action_3: "Skulk",
+        action_4: "Sway",
+    },
+    {
+        id: "5b195a33-ebb0-4081-8138-e47135f3c7e2",
+        build_suggestions: "Spy",
+        playbook: "speaker",
+        playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
+        special_ability: "Infiltrator",
+        special_abilities_id: "89237254-443e-4d72-add8-6780562e24b3",
+        action_1: "Hack",
+        action_2: "Skulk",
+        action_3: "Skulk",
+        action_4: "Sway",
+    },
+    {
+        id: "bcd177ec-8432-4df4-b1de-312b6f3981ca",
+        build_suggestions: "Counselor",
+        playbook: "speaker",
+        playbooks_id: "8db6b05e-da26-4165-bad7-35114929bc6c",
+        special_ability: "Heart to Heart",
+        special_abilities_id: "eaf021a7-1c40-456e-bf57-76549102779b",
+        action_1: "Doctor",
+        action_2: "Doctor",
+        action_3: "Study",
+        action_4: "Scramble",
+    },
+    {
+        id: "c15f2ffa-c670-466d-9e4f-61bf1302fc6c",
+        build_suggestions: "Wandering healer",
+        playbook: "stitch",
+        playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
+        special_ability: "Welcome Anywhere",
+        special_abilities_id: "8454b56b-b18a-45b6-871d-862895a8cd53",
+        action_1: "Consort",
+        action_2: "Consort",
+        action_3: "Sway",
+        action_4: "Sway",
+    },
+    {
+        id: "afa1d3e1-f863-4a78-80fa-fbf1e10ccfc9",
+        build_suggestions: "Mad scientist",
+        playbook: "stitch",
+        playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
+        special_ability: "Dr. Strange",
+        special_abilities_id: "db2b3fa0-d8bf-4ee2-bc0c-6c1f0b6726be",
+        action_1: "Scramble",
+        action_2: "Attune",
+        action_3: "Attune",
+        action_4: "Sway",
+    },
+    {
+        id: "ce1c3eca-cc12-43ef-8c7d-af3660c8411b",
+        build_suggestions: "Action medic",
+        playbook: "stitch",
+        playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
+        special_ability: "Combat Medic",
+        special_abilities_id: "a21c5162-d52d-4c46-b5f5-41954218e5b1",
+        action_1: "Scramble",
+        action_2: "Scrap",
+        action_3: "Scrap",
+        action_4: "Sway",
+    },
+    {
+        id: "50d73ed8-017f-4406-84a1-2e03655d9757",
+        build_suggestions: "Researcher",
+        playbook: "stitch",
+        playbooks_id: "4189a100-951c-4fcf-b441-39cfbed39ae6",
+        special_ability: "Book Learning",
+        special_abilities_id: "ae8b889d-5750-40d1-bf62-aed8449468d8",
+        action_1: "Study",
+        action_2: "Skulk",
+        action_3: "Sway",
+        action_4: "Sway",
     },
 ];
 const heritages = [
@@ -2454,6 +2777,8 @@ exports.seed = async function (knex) {
     await knex("items").insert(items);
     await knex("special_abilities").del();
     await knex("special_abilities").insert(specialAbilities);
+    await knex("build_suggestions").del();
+    await knex("build_suggestions").insert(buildSuggestions);
     await knex("heritages").del();
     await knex("heritages").insert(heritages);
     await knex("backgrounds").del();
@@ -2468,4 +2793,6 @@ exports.seed = async function (knex) {
     await knex("last_names").insert(lastNames);
     await knex("first_names").del();
     await knex("first_names").insert(firstNames);
+    await knex("actions").del();
+    await knex("actions").insert(actions);
 };

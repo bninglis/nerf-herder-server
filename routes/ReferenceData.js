@@ -6,6 +6,7 @@ const knex = require("knex")(require("../knexfile"));
 router.get("/", (_req, res) => {
     knex.select("playbook", "id", "tagline", "summary")
         .from("playbooks")
+        .orderBy("playbook", "asc")
         .then((data) => {
             res.send(data);
         });
