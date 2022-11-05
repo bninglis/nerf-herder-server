@@ -24,7 +24,7 @@ router.get("/:id", (req, res) => {
                 res.status(404).send("I dunno, but we don't have that one on our end...");
             }
         });
-    const playbookKeys = ["items", "special_abilities", "friends"];
+    const playbookKeys = ["items", "special_abilities", "friends", "build_suggestions"];
     const referenceKeys = [
         "heritages",
         "backgrounds",
@@ -33,6 +33,7 @@ router.get("/:id", (req, res) => {
         "aliases",
         "first_names",
         "last_names",
+        "actions",
     ];
     let refData = {};
     knex.select()
