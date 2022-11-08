@@ -60,7 +60,6 @@ router.post("/", (req, res) => {
             .from("users")
             .where("username", "=", sentUser.username)
             .then((data) => {
-                console.log(data);
                 if (data.length !== 0) {
                     res.status(409).send("Username already taken");
                 } else {
@@ -80,8 +79,6 @@ router.get("/login/:username", (req, res) => {
         .select("*")
         .where("username", "=", requestedUser)
         .then((data) => {
-            console.log(requestedUser);
-            console.log(data);
             if (data.length === 0) {
                 res.status(404).send("No one here by that name...");
             } else {
@@ -93,33 +90,82 @@ router.get("/login/:username", (req, res) => {
 router.post("/characters", (req, res) => {
     const sentObject = req.body;
     if (testCategories(characterKeys, sentObject)) {
+        console.log("sentObject:", sentObject);
         knex("characters")
-            .insert(sentObject)
+            .select()
+            .from("characters")
+            .where("characters.id", "=", sentObject.id)
             .then((data) => {
-                res.status(200).send();
+                console.log("data:", data);
+                if (data.length === 0) {
+                    knex("characters")
+                        .insert(sentObject)
+                        .then((data) => {
+                            res.status(200).send();
+                        });
+                } else {
+                    knex("characters")
+                        .where("characters.id", "=", sentObject.id)
+                        .update(sentObject)
+                        .then((data) => {
+                            res.status(200).send();
+                        });
+                }
             });
     }
 });
 
-router.get("/characters/:id", (req, res) => {
-    characterID = req.params.id;
-    knex("characters")
-        .select()
-        .where("characters.id", "=", characterID)
-        .then((data) => {
-            res.status(200).send(data);
-        });
-});
+router
+    .route("/characters/:id")
+    .get((req, res) => {
+        characterID = req.params.id;
+        knex("characters")
+            .select()
+            .where("characters.id", "=", characterID)
+            .then((data) => {
+                if (data.length > 0) {
+                    res.status(200).send(data);
+                } else {
+                    res.status(404).send("Character not found");
+                }
+            });
+    })
+    .delete((req, res) => {
+        characterID = req.params.id;
+        knex("characters")
+            .select("characters.id")
+            .where("characters.id", "=", characterID)
+            .then((data) => {
+                if (data.length > 0) {
+                    knex("characters")
+                        .where("characters.id", "=", characterID)
+                        .del()
+                        .then((data) => {
+                            res.status(200).send();
+                        });
+                } else {
+                    res.status(404).send("Character not found");
+                }
+            });
+    });
 
 router.get("/user/:id/characters", (req, res) => {
     userID = req.params.id;
-    console.log(userID);
-    knex.select("first_name", "last_name", "playbook", "characters.id","alias")
-        .from("characters")
-        .innerJoin("users", "users.id", "characters.users_id")
-        .where("users_id", "=", userID)
+    knex("users")
+        .select()
+        .where("users.id", "=", userID)
         .then((data) => {
-            res.status(200).send(data);
+            if (data.length > 0) {
+                knex.select("first_name", "last_name", "playbook", "characters.id", "alias")
+                    .from("characters")
+                    .innerJoin("users", "users.id", "characters.users_id")
+                    .where("users_id", "=", userID)
+                    .then((data) => {
+                        res.status(200).send(data);
+                    });
+            } else {
+                res.status(404).send("User not found");
+            }
         });
 });
 

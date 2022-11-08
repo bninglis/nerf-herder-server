@@ -59,7 +59,7 @@ router.get("/:id", (req, res) => {
         referenceKeys.forEach((key, index) => {
             refData[key] = JSON.parse(JSON.stringify(data))[index];
         });
-        res.send(refData);
+        res.status(200).send(refData);
     });
 });
 
