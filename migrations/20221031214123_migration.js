@@ -159,17 +159,25 @@ exports.up = function (knex) {
             table.string("last_name").notNullable();
             table.string("alias").notNullable();
             table.text("look").notNullable();
+            table.text("playbook_actions").notNullable();
+            table.integer("attune").notNullable();
+            table.integer("command").notNullable();
+            table.integer("consort").notNullable();
+            table.integer("doctor").notNullable();
+            table.integer("hack").notNullable();
+            table.integer("helm").notNullable();
+            table.integer("rig").notNullable();
+            table.integer("scramble").notNullable();
+            table.integer("scrap").notNullable();
+            table.integer("skulk").notNullable();
+            table.integer("study").notNullable();
+            table.integer("sway").notNullable();
+            table.integer("playbook").notNullable();
             table.index("id");
             table
                 .foreign("playbooks_id")
                 .references("id")
                 .inTable("playbooks")
-                .onUpdate("CASCADE")
-                .onDelete("CASCADE");
-            table
-                .foreign("users_id")
-                .references("id")
-                .inTable("users")
                 .onUpdate("CASCADE")
                 .onDelete("CASCADE");
             table
