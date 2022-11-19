@@ -14,8 +14,10 @@ const characterKeys = [
     `background_story`,
     `close_friend`,
     `close_friend_story`,
+    `close_friend_portrait`,
     `rival`,
     `rival_story`,
+    `rival_portrait`,
     `vices_id`,
     `vice_story`,
     `first_name`,
@@ -37,7 +39,7 @@ const characterKeys = [
     `sway`,
     "playbook",
 ];
-const userKeys = [`id`, `username`, `password`, `email`];
+const userKeys = [`id`, `username`];
 
 const testCategories = (arrayKeys, sentObject) => {
     let tempTested = Object.keys(sentObject).sort();
@@ -55,6 +57,7 @@ const testCategories = (arrayKeys, sentObject) => {
 router.post("/", (req, res) => {
     const sentUser = req.body;
     if (testCategories(userKeys, sentUser)) {
+        const finalUserObject = { ...sentUser, password: "", email: "" };
         knex("users")
             .select()
             .from("users")
@@ -64,7 +67,7 @@ router.post("/", (req, res) => {
                     res.status(409).send("Username already taken");
                 } else {
                     knex("users")
-                        .insert(sentUser)
+                        .insert(finalUserObject)
                         .then((data) => {
                             res.status(200).send();
                         });
@@ -90,13 +93,11 @@ router.get("/login/:username", (req, res) => {
 router.post("/characters", (req, res) => {
     const sentObject = req.body;
     if (testCategories(characterKeys, sentObject)) {
-        console.log("sentObject:", sentObject);
         knex("characters")
             .select()
             .from("characters")
             .where("characters.id", "=", sentObject.id)
             .then((data) => {
-                console.log("data:", data);
                 if (data.length === 0) {
                     knex("characters")
                         .insert(sentObject)
@@ -119,12 +120,61 @@ router
     .route("/characters/:id")
     .get((req, res) => {
         characterID = req.params.id;
+        let servedData = null;
         knex("characters")
             .select()
             .where("characters.id", "=", characterID)
             .then((data) => {
                 if (data.length > 0) {
-                    res.status(200).send(data);
+                    const characterData = JSON.parse(JSON.stringify(data))[0];
+                    const requestID = characterData.playbooks_id;
+                    servedData = {
+                        characterData: characterData,
+                        refData: {},
+                    };
+                    const playbookKeys = [
+                        "items",
+                        "special_abilities",
+                        "friends",
+                        "build_suggestions",
+                    ];
+                    const referenceKeys = [
+                        "heritages",
+                        "backgrounds",
+                        "vices",
+                        "signature",
+                        "aliases",
+                        "first_names",
+                        "last_names",
+                        "actions",
+                    ];
+                    let refData = {};
+                    knex.select()
+                        .from("playbooks")
+                        .where("playbooks.id", "=", requestID)
+                        .then((data) => {
+                            refData.playbook = JSON.parse(JSON.stringify(data));
+                        });
+                    const buildOptionsObject = (table) => {
+                        return knex(table).where("playbooks_id", "=", requestID);
+                    };
+                    const buildRefsObject = (table) => {
+                        return knex(table);
+                    };
+                    Promise.all(playbookKeys.map(buildOptionsObject)).then((data) => {
+                        // let tempRef = JSON.parse(JSON.stringify(data))
+                        playbookKeys.forEach((key, index) => {
+                            refData[key] = JSON.parse(JSON.stringify(data))[index];
+                        });
+                    });
+                    Promise.all(referenceKeys.map(buildRefsObject)).then((data) => {
+                        // let tempRef = JSON.parse(JSON.stringify(data))
+                        referenceKeys.forEach((key, index) => {
+                            refData[key] = JSON.parse(JSON.stringify(data))[index];
+                        });
+                        servedData.refData = refData;
+                        res.status(200).send(servedData);
+                    });
                 } else {
                     res.status(404).send("Character not found");
                 }

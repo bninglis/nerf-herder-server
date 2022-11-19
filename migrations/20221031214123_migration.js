@@ -150,8 +150,10 @@ exports.up = function (knex) {
             table.uuid("backgrounds_id").notNullable();
             table.text("background_story").notNullable();
             table.string("close_friend").notNullable();
+            table.string("close_friend_portrait").notNullable();
             table.text("close_friend_story").notNullable();
             table.string("rival").notNullable();
+            table.string("rival_portrait").notNullable();
             table.text("rival_story").notNullable();
             table.uuid("vices_id").notNullable();
             table.text("vice_story").notNullable();
@@ -160,19 +162,19 @@ exports.up = function (knex) {
             table.string("alias").notNullable();
             table.text("look").notNullable();
             table.text("playbook_actions").notNullable();
-            table.integer("attune").notNullable();
-            table.integer("command").notNullable();
-            table.integer("consort").notNullable();
-            table.integer("doctor").notNullable();
-            table.integer("hack").notNullable();
-            table.integer("helm").notNullable();
-            table.integer("rig").notNullable();
-            table.integer("scramble").notNullable();
-            table.integer("scrap").notNullable();
-            table.integer("skulk").notNullable();
-            table.integer("study").notNullable();
-            table.integer("sway").notNullable();
-            table.integer("playbook").notNullable();
+            table.string("attune").notNullable();
+            table.string("command").notNullable();
+            table.string("consort").notNullable();
+            table.string("doctor").notNullable();
+            table.string("hack").notNullable();
+            table.string("helm").notNullable();
+            table.string("rig").notNullable();
+            table.string("scramble").notNullable();
+            table.string("scrap").notNullable();
+            table.string("skulk").notNullable();
+            table.string("study").notNullable();
+            table.string("sway").notNullable();
+            table.string("playbook").notNullable();
             table.index("id");
             table
                 .foreign("playbooks_id")
